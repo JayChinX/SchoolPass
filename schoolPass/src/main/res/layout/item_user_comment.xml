@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@color/col_account_bg"
+    android:paddingLeft="18dp"
+    android:paddingBottom="@dimen/space_10"
+    android:paddingRight="18dp">
+    
+	<com.yuanding.schoolpass.view.CircleImageView 
+	    android:id="@+id/iv_comment_user_por"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:layout_marginRight="10dp"
+	    android:background="@drawable/i_default_por_120"/>
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <TextView 
+	        android:id="@+id/tv_comment_user_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#666666"
+	        android:textSize="10sp"
+	        android:layout_marginLeft="7dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"/>
+	    <TextView 
+	        android:id="@+id/tv_comment_user_content"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tv_comment_user_time"
+	        android:layout_marginTop="5dp"
+	        android:paddingTop="11dp"
+	        android:paddingBottom="11dp"
+	        android:paddingLeft="17dp"
+	        android:paddingRight="7dp"
+	        android:textColor="#666666"
+	        android:textSize="17sp"
+	        android:background="@drawable/bg_comment_left"
+	        android:gravity="left"
+	        android:minWidth="100dp"/>
+	    <TextView 
+	        android:id="@+id/tv_comment_user_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:text="昨天 13:10"
+	        android:textColor="#999999"
+	        android:textSize="10sp"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:layout_toRightOf="@+id/tv_comment_user_name"
+	        android:layout_alignRight="@+id/tv_comment_user_content"/>
+	</RelativeLayout>
+</LinearLayout>

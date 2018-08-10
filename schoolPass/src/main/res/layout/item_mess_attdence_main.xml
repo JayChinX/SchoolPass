@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingRight="18dp" >
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_11"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginTop="@dimen/space_11"
+        android:background="@drawable/attdence_list_shape"
+        android:orientation="vertical"
+        android:paddingRight="18dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_20"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_20"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/attdence_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_3"
+                android:layout_marginRight="@dimen/space_12" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_attdence_subject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_14" 
+                        android:singleLine="true"
+                        android:ellipsize="end"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_attdence_classroom"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#666666"
+                        android:textSize="@dimen/sp_13"
+                        android:singleLine="true"
+                        android:ellipsize="end"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_3"
+                    android:gravity="center_vertical" >
+                    <TextView
+                        android:id="@+id/tv_attdence_person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:textColor="#48C433"
+                        android:textSize="@dimen/sp_13"/>
+                    
+                   <TextView
+                        android:id="@+id/tv_attdence_date_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/space_4"
+                        android:textSize="@dimen/sp_13" 
+                        android:layout_alignParentRight="true"/>
+                   
+                   <TextView
+                        android:id="@+id/tv_attdence_date_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/space_6"
+                        android:textSize="@dimen/sp_13"
+                        android:layout_toLeftOf="@+id/tv_attdence_date_status"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_start_attdence"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_18"
+            android:layout_marginLeft="@dimen/space_20"
+            android:background="@drawable/btn_attdence_start_normal"
+            android:text="点击考勤"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg"
+    android:orientation="vertical" >
+
+   
+
+        <TextView
+            android:id="@+id/tv_acy_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="19dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#CCCCCC" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_acy_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/icon_notice_detail_repaly"
+                android:gravity="center_vertical"
+                android:text="  777"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_acy_detail_join_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_detail_comment_count"
+                android:drawableLeft="@drawable/icon_info_click_like"
+                android:gravity="center_vertical"
+                android:text="  8888"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#CCCCCC" />
+
+<FrameLayout
+    android:id="@+id/liner_acy_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_18"
+    android:layout_marginRight="@dimen/space_18"
+    android:layout_marginTop="@dimen/space_10" >
+</FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_side_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_15"
+            android:gravity="center_horizontal"
+            android:text="+1"
+            android:textColor="@color/yellow_light"
+            android:textSize="@dimen/sp_18"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/liner_info_praise"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/side_info_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/tv_content_praise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:text="1566"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner_line_hot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_18"
+            android:layout_marginRight="@dimen/space_18"
+            android:layout_marginTop="@dimen/space_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="2"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/tv_acy_deail_down_comment_num_hot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:text="热门评论（3）"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="2"
+                android:background="#CCCCCC" />
+        </LinearLayout>
+
+        <com.yuanding.schoolpass.view.MyListView
+            android:id="@+id/lv_info_detail_comment_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_30"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/col_account_bg"
+            android:dividerHeight="17dp"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:scrollingCache="false" >
+        </com.yuanding.schoolpass.view.MyListView>
+
+        <LinearLayout
+            android:id="@+id/liner_line_new"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_20"
+            android:layout_marginLeft="@dimen/space_18"
+            android:layout_marginRight="@dimen/space_18"
+            android:layout_marginTop="@dimen/space_20"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="2"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/tv_acy_deail_down_comment_new"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:text="最新评论（3）"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="2"
+                android:background="#CCCCCC" />
+        </LinearLayout>
+
+</LinearLayout>

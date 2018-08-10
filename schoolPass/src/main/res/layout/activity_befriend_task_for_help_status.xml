@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_16"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_marginTop="@dimen/space_16" >
+
+                    <ImageView
+                        android:id="@+id/for_help_status_time_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bangbang_ico_dlq" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/space_12"
+                        android:layout_toRightOf="@+id/for_help_status_time_icon"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/for_help_status_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black_code"
+                                android:textSize="@dimen/sp_17" />
+
+                            <com.yuanding.schoolpass.view.TimesTextView
+                                android:id="@+id/for_help_status_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/for_help_status_status_tishi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/title_no_focus_login"
+                            android:textSize="@dimen/sp_13"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+
+                    
+                   
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_before"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待领取"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_doing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  一  服务中"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_done"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  一  对方完成"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_paying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  一  确认付款"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_14" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/for_help_status_task_payBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/space_16"
+                    android:background="@drawable/bangbang_btn_fukuan"
+                    android:gravity="center"
+                    android:text="确认并付款"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_15"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_tishi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_tishi_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_tishi_color_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/info_green_name"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_tishi_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/for_help_status_task_workr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_13"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:layout_marginTop="@dimen/space_13" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text=""
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_17" />
+
+                    <ImageView
+                        android:id="@+id/for_help_status_task_work_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/for_help_status_task_work"
+                        android:src="@drawable/bangbang_ico_xingbienan" />
+
+                    <ImageView
+                        android:id="@+id/for_help_status_task_work_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/bangbang_btn_dianhua" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:background="@color/title_line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="所在院校"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_workr_school"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_workr_taskTimes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_workr_taskTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_13"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:layout_marginTop="@dimen/space_13"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_namer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text=""
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_17" />
+                    <TextView
+                        android:id="@+id/for_help_status_task_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text=""
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_17" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:background="@color/title_line" />
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_take_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_adds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取件地址"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_send_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="送件地址"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_send_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取件时间"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_take_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_phoneNums"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取件联系"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_take_phoneNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_send_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收件联系"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_send_phoneNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/for_help_status_task_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="备注        "
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:text=""
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:background="@color/title_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:layout_marginTop="@dimen/space_13" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black_code"
+                        android:text="酬金总价"
+                        android:textSize="@dimen/sp_16" />
+                    <TextView
+                        android:id="@+id/for_help_status_task_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/attence_later"
+                        android:textSize="@dimen/sp_16" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rela_coupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:visibility="gone"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/attence_later"
+                        android:text="优惠券抵用"
+                        android:textSize="@dimen/sp_16"
+                        />
+                    <TextView
+                        android:id="@+id/tv_money_coupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/attence_later"
+                        android:textSize="@dimen/sp_16" />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/temp_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:background="@color/title_line"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:visibility="gone"
+                    />
+                <RelativeLayout
+                    android:id="@+id/rela_true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:visibility="gone"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black_code"
+                        android:text="实付款"
+                        android:textSize="@dimen/sp_16" />
+                    <TextView
+                        android:id="@+id/tv_money_true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_16" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/for_help_status_task_pay_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_13"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20" >
+
+                <TextView
+                    android:id="@+id/for_help_status_task_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/space_13"
+                    android:layout_marginTop="@dimen/space_13"
+                    android:text="支付信息"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_17" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:background="@color/title_line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支付单号"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_pay_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支付方式"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_pay_order_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支付时间"
+                        android:textColor="@color/black_code"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/for_help_status_task_pay_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_33"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/for_help_status_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="gone" />
+
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/for_help_status_loading_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+</RelativeLayout>

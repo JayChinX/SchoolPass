@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/half_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_43"
+        android:layout_marginRight="@dimen/space_43"
+        android:background="@drawable/notice_list_shape" >
+		
+        <ImageView 
+            android:id="@+id/iv_title_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_13"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bangbang_ico_shibai"/>
+        
+        <TextView
+            android:id="@+id/tv_dialog_course_content"
+            android:textSize="17sp"
+            android:textColor="@color/start_title_col"
+            android:layout_marginTop="@dimen/space_17"
+            android:layout_marginBottom="@dimen/space_20"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_title_info"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/main_color"
+            android:padding="15dp"
+            android:layout_marginBottom="@dimen/space_10"
+            android:textSize="14sp"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dialog_course_content"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/bt_commit"
+            android:layout_marginRight="35dp"
+             android:textColor="@color/main_color"
+            android:padding="15dp"
+            android:layout_marginBottom="@dimen/space_10"
+            android:textSize="14sp"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_dialog_course_content"
+            android:text="确认复制" />
+    </RelativeLayout>
+
+</LinearLayout>

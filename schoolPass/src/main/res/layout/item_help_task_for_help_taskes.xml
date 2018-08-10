@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/side_acy_list_bg"
+        android:orientation="vertical"
+        android:padding="18dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yuanding.schoolpass.view.CircleImageView
+                android:id="@+id/for_help_task_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bangbang_ico_q" />
+
+            <TextView
+                android:id="@+id/for_help_task_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="￥2"
+                android:textColor="@color/attence_later"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <!-- 帮助内容 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_goods" />
+
+            <TextView
+                android:id="@+id/for_help_task_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="帮取物品："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/for_help_task_namer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="身份证"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/for_help_task_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_position" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取件地点："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/for_help_task_take"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="小礼堂"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/for_help_task_send_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_position" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收件地点："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/for_help_task_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="寝室"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/bangbang_ico_repair_time" />
+
+            <TextView
+                android:id="@+id/for_help_task_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取件时间："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/for_help_task_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="今天  14:03"
+                android:textColor="@color/GREEMORE"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_16" >
+
+            <Button
+                android:id="@+id/for_help_get_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_huizhi_queren"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="我去帮"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

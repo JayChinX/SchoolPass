@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/side_acy_list_bg"
+        android:orientation="vertical"
+        android:padding="18dp" >
+
+        <TextView
+            android:id="@+id/tv_lecture_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:singleLine="true"           
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+        <!-- 主讲 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" >
+
+            <TextView
+                android:id="@+id/tv_temp_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="主讲："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_001"
+                android:text="著名学者——张娜"
+                android:textColor="#999999"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <TextView
+                android:id="@+id/tv_temp_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="时间："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_begin_metting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_002"
+                android:text="9/19 13/50"
+                android:textColor="#1EC348"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_temp_003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_toRightOf="@+id/tv_lecture_item_begin_metting"
+                android:text="――"
+                android:textColor="#1EC348"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_end_metting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_003"
+                android:text="9/22 13/50"
+                android:textColor="#1EC348"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        <!-- 地点 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <TextView
+                android:id="@+id/tv_temp_004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="地点："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_metting_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_004"
+                android:text="小礼堂"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp" 
+            >
+            <TextView
+                android:id="@+id/tv_lecture_satus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进行中"
+                android:textColor="@color/GREENlIGHT"
+                android:textSize="@dimen/sp_13" />
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:id="@+id/ll_lecture_time"
+                >
+             <TextView
+                android:id="@+id/tv_lecture_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:text="距离结束还有 "
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+             <TextView 
+                 android:id="@+id/tv_lecture_time"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="2"
+                 android:textSize="@dimen/sp_13"
+                 android:textColor="@color/GREENlIGHT"
+                 />
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="天 "
+                 android:textSize="@dimen/sp_13"
+                 android:textColor="#999999"
+                 />
+            <TextView
+                android:id="@+id/tv_lecture_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/GREENlIGHT"
+                android:textSize="@dimen/sp_13" />
+            <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="小时"
+                 android:textColor="#999999"
+                 android:textSize="@dimen/sp_13"
+                 />
+            <TextView
+                android:id="@+id/tv_lecture_end_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/GREENlIGHT"
+                android:textSize="@dimen/sp_13" />
+            <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="分"
+                 android:textSize="@dimen/sp_13"
+                 android:textColor="#999999"
+                 />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp" 
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/tv_lecture_item_metting_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="2015/11/08 12:35"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_replay_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="100"
+                android:textColor="#1EC348"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_lecture_item_replay_count_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/tv_lecture_item_replay_count"
+                android:text="浏览："
+                android:textColor="#999999"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

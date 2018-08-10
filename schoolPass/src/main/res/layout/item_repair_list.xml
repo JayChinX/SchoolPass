@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/side_acy_list_bg"
+        android:orientation="vertical"
+        android:padding="18dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[已受理]"
+                android:visibility="gone"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="sdfjkdsfjkd"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <!-- 主讲 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp" >
+
+            <ImageView
+                android:id="@+id/iv_type"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_goods" />
+
+            <TextView
+                android:id="@+id/tv_temp_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_type"
+                android:text="类别："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_001"
+                android:singleLine="true"
+                android:text="著名学者——张娜"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:id="@+id/iv_address"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_position" />
+
+            <TextView
+                android:id="@+id/tv_temp_004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_address"
+                android:text="地址："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_004"
+                android:singleLine="true"
+                android:text="小礼堂"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" 
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="时间："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="9/19 13/50"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_repair_phone" />
+
+            <TextView
+                android:id="@+id/tv_temp_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_time"
+                android:text="电话："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_002"
+                android:singleLine="true"
+                android:text="157379"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        <!-- 地点 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" 
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/iv_person"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:id="@+id/tv_temp_005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_person"
+                android:text="报修人："
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_005"
+                android:singleLine="true"
+                android:text="小礼堂"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/space_19"
+            
+            >
+             <TextView
+                android:id="@+id/tv_repair_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已受理"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+            <TextView
+                android:id="@+id/tv_repair_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="9/19 13/50"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:layout_marginTop="9dp"
+            android:visibility="gone"
+            android:background="#CCCCCC" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_repair_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:visibility="gone"
+                android:textColor="#666666"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

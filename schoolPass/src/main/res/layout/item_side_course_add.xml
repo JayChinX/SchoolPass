@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginBottom="@dimen/space_14">
+
+        <RelativeLayout
+            android:layout_width="@dimen/space_67"
+            android:layout_height="@dimen/space_150"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_course_add_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_side_course_reduce"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/liner_course_right_001"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/space_20"
+            android:paddingRight="@dimen/space_20" >
+
+            <RelativeLayout
+                android:id="@+id/rel_course_add_week"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50" >
+
+                <ImageView
+                    android:id="@+id/iv_side_course_add_001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_course_week" />
+
+                <TextView
+                    android:id="@+id/tv_course_add_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toRightOf="@+id/iv_side_course_add_001"
+                    android:hint = "上课周数"
+                    android:textColorHint="@color/title_no_focus_login"
+                    android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.9"
+                android:background="@color/title_line" />
+
+            <RelativeLayout
+                android:id="@+id/rel_course_add_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_side_course_add_002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_course_time" />
+
+                <TextView
+                    android:id="@+id/tv_course_add_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toRightOf="@+id/iv_side_course_add_002"
+                    android:hint="上课时间"
+                    android:textColorHint="@color/title_no_focus_login"
+                    android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.9"
+                android:background="@color/title_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_side_course_add_003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_course_place" />
+
+                <EditText
+                    android:id="@+id/et_course_add_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLength="50"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toRightOf="@+id/iv_side_course_add_003"
+                    android:hint="输入上课地点"
+                    android:textColorHint="@color/title_no_focus_login"
+                    android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

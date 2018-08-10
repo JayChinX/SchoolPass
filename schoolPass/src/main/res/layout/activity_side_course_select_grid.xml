@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e0de"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_side_course_bg_whole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible" >
+        <com.yuanding.schoolpass.view.MyGridView
+            android:id="@+id/gv_side_course_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:layout_margin="@dimen/sp_12"
+            android:horizontalSpacing="@dimen/sp_12"
+            android:verticalSpacing="@dimen/sp_15" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/side_course_bg_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/side_course_bg_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="gone" />
+
+</LinearLayout>

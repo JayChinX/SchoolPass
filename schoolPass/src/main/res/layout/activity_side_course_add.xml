@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_hide_keyborad"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50"
+                android:layout_marginTop="@dimen/space_13"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20" >
+
+                <ImageView
+                    android:id="@+id/tv_course_temp001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_course_name" />
+				
+                <LinearLayout 
+                    android:id="@+id/iv_courses_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/space_5"
+                    android:paddingRight="@dimen/space_2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+	                <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@drawable/icon_course_add" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_course_temp003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toRightOf="@id/tv_course_temp001"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_course_name_title"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_17" />
+
+                <EditText
+                    android:id="@+id/et_course_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@id/tv_course_temp003"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toLeftOf="@id/iv_courses_add"
+                    android:layout_toRightOf="@id/tv_course_temp003"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:hint="请输入课程名称"
+                    android:textColorHint="@color/title_no_focus_login"
+                    android:maxLength="30"
+                    android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.7"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:background="@color/title_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20" >
+
+                <ImageView
+                    android:id="@+id/tv_course_temp001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_course_people" />
+				
+                <LinearLayout 
+                    android:id="@+id/iv_courses_teacher_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/space_5"
+                    android:paddingRight="@dimen/space_2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+	                <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@drawable/icon_course_add" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_course_temp003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toRightOf="@id/tv_course_temp001"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_course_teacher_name"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_17" />
+
+                <EditText
+                    android:id="@+id/et_course_teacher_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@id/tv_course_temp003"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_7"
+                    android:layout_toLeftOf="@id/iv_courses_teacher_add"
+                    android:layout_toRightOf="@id/tv_course_temp003"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:hint="请输入任课教师名称"
+                    android:textColorHint="@color/title_no_focus_login"
+                    android:maxLines="2"
+                    android:maxLength="30"
+                    android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+
+            <com.yuanding.schoolpass.view.MyListView
+                android:id="@+id/mylistview_course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_14"
+                android:background="@null"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="true"
+                android:listSelector="@null"
+                android:overScrollMode="never"
+                android:paddingBottom="0dp"
+                android:scrollbars="none" >
+            </com.yuanding.schoolpass.view.MyListView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

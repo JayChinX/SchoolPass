@@ -1,0 +1,171 @@
+<resources>
+    
+    <!-- 主页工具栏主题 -->
+	<style name="background_change">
+		<!-- <item name="android:background">@drawable/toolbar_bg_change</item> -->
+		<item name="android:focusable">false</item>
+		<item name="android:clickable">true</item>
+	</style>
+	
+    <style name="Theme.GeneralDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.TitleBar" parent="android:Theme">  
+        <item name="android:windowBackground">@color/white</item>  
+        <item name="android:windowNoTitle">true</item>    
+    </style><!--<item name="android:windowIsTranslucent">true</item> -->
+	
+	 <style name="check_position_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_position</item>
+    </style>
+	
+	
+    <style name="Theme.Toast" parent="@android:style/Theme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--动画 -->
+     <!-- Base animal_center_in_normal渐变缩放动画 -->
+    <style name="Theme.TitleBar.Animal.animal_acy_center_in" parent="@style/Theme.TitleBar">
+        <item name="android:windowAnimationStyle">@style/animal_acy_center_in</item>
+    </style>
+
+    <style name="animal_acy_center_in" parent="android:Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/animal_center_in_normal</item>
+        <item name="android:activityOpenExitAnimation">@anim/animal_center_out_normal</item>
+    </style>
+    <!-- Base animal_side_in_bottom上进上出动画 
+    <style name="Theme.TitleBar.Animal.animal_acy_top" parent="@style/Theme.TitleBar">
+        <item name="@android:windowAnimationStyle">@style/animal_acy_top</item>
+    </style>
+
+    <style name="animal_acy_top" parent="android:Animation">
+        <item name="@android:activityOpenEnterAnimation">@anim/animal_slide_in_top</item>
+        <item name="@android:activityOpenExitAnimation">@anim/animal_slide_out_top</item>
+    </style>
+    -->
+    <!-- Base animal_side_in_bottom下进下出动画 
+    <style name="Theme.TitleBar.Animal.animal_side_in_bottom" parent="@style/Theme.TitleBar">
+        <item name="@android:windowAnimationStyle">@style/animal_acy_bottom</item>
+    </style>
+
+    <style name="animal_acy_bottom" parent="android:Animation">
+        <item name="@android:activityOpenEnterAnimation">@anim/animal_slide_in_bottom</item>
+        <item name="@android:activityOpenExitAnimation">@anim/animal_push_left_out_normal</item>
+    </style>
+    -->
+    <!-- Base animal_push_left_in_normal左进左出动画 
+    <style name="Theme.TitleBar.Animal.animal_acy_left" parent="@style/Theme.TitleBar">
+        <item name="@android:windowAnimationStyle">@style/animal_acy_left</item>
+    </style>
+
+    <style name="animal_acy_left" parent="android:Animation">
+        <item name="@android:activityOpenEnterAnimation">@anim/animal_push_left_in_normal</item>
+        <item name="@android:activityOpenExitAnimation">@anim/animal_push_left_out_normal</item>
+    </style>
+    -->
+    <!-- Base animal_push_right_in_normal右进右出动画 
+    <style name="Theme.TitleBar.Animal.animal_acy_right" parent="@style/Theme.TitleBar">
+        <item name="@android:windowAnimationStyle">@style/animal_acy_right</item>
+    </style>
+
+    <style name="animal_acy_right" parent="android:Animation">
+        <item name="@android:activityOpenEnterAnimation">@anim/animal_push_right_in_normal</item>
+        <item name="@android:activityOpenExitAnimation">@anim/animal_push_right_out_normal</item>
+    </style>
+-->
+    
+    
+    
+    <style name="dialog_load" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+    
+    <style name="Theme_dim_Dialog" parent="@android:style/Theme.Dialog">  
+	  <item name="android:windowFrame">@null</item>  
+	  <item name="android:windowIsFloating">true</item>  
+	  <item name="android:windowIsTranslucent">true</item>  
+	  <item name="android:windowNoTitle">true</item>  
+	  <item name="android:background">@android:color/transparent</item>  
+	  <item name="android:windowBackground">@android:color/transparent</item>  
+	  <item name="android:backgroundDimEnabled">true</item>  
+	  <item name="android:backgroundDimAmount">0.6</item> 
+	</style>
+	
+	<style name="Theme_no_dim_Dialog" parent="@android:style/Theme.Dialog">  
+	  <item name="android:windowFrame">@null</item>  
+	  <item name="android:windowIsFloating">true</item>  
+	  <item name="android:windowIsTranslucent">true</item>  
+	  <item name="android:windowNoTitle">true</item>  
+	  <item name="android:background">@android:color/transparent</item>  
+	  <item name="android:windowBackground">@android:color/transparent</item>  
+	  <item name="android:backgroundDimEnabled">false</item>  
+	  <item name="android:backgroundDimAmount">0.6</item> 
+	</style>
+	
+	<!-- 群聊 -->
+	<style name="WinDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+	 <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+    
+	 <!-- 滚动的FramMent -->
+     <style name="MyWidget" parent="android:style/Theme" />
+     <style name="MyWidget.TabText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tab_indicator_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+     <style name="mystyle" parent="android:Animation">
+         <item name="android:windowEnterAnimation">@anim/animal_slide_in_bottom_normal</item>
+        <item name="android:windowExitAnimation">@anim/animal_slide_out_bottom_normal</item>
+    </style>  
+     
+     <!--分享 弹出Dialog -->
+    <style name="shareDialog" parent="android:style/Theme.Dialog">  
+        <item name="android:background">#00000000</item>  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:windowIsFloating">true</item>  
+    </style>  
+    
+    <!-- 微信支付 Navigation Header -->
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+    </style>
+
+    <!--上传附件进度条-->
+    <style name="tallerBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:maxHeight">60dip</item>
+    </style>
+</resources>

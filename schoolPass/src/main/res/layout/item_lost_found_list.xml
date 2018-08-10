@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/side_acy_list_bg"
+        android:orientation="vertical"
+        android:padding="18dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yuanding.schoolpass.view.CircleImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/i_default_por_120" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="曹一名"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="完璧归赵"
+                    android:visibility="gone"
+                    android:textColor="#51df8d"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_person_name"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11/19 12:00"
+                        android:textColor="#999999"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/tv_school"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:singleLine="true"
+                        android:text="河南大学"
+                        android:textColor="#999999"
+                        android:textSize="11sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 主讲 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp" >
+
+            <ImageView
+                android:id="@+id/iv_type"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_goods" />
+
+            <TextView
+                android:id="@+id/tv_temp_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_type"
+                android:text="拾获物品："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_lost_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_001"
+                android:singleLine="true"
+                android:text="身份证"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:id="@+id/iv_address"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_position" />
+
+            <TextView
+                android:id="@+id/tv_temp_004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_address"
+                android:text="拾获地点："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_lost_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_004"
+                android:singleLine="true"
+                android:text="小礼堂"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp" >
+
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/side_lost_time" />
+
+            <TextView
+                android:id="@+id/tv_temp_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_time"
+                android:text="拾获时间："
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_lost_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_temp_002"
+                android:singleLine="true"
+                android:text="9/19 13/50"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+        
+         <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp" >
+
+                <ImageView
+                    android:id="@+id/iv_phone"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/side_repair_phone" />
+
+                <TextView
+                    android:id="@+id/tv_temp_003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_phone"
+                    android:text="联系电话："
+                    android:textColor="#666666"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_lost_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_temp_003"
+                    android:singleLine="true"
+                    android:text="18888888888"
+                    android:textColor="#999999"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        
+        <!-- 地点 -->
+
+        <ImageView
+            android:id="@+id/iv_lost_img"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="@drawable/intro_one"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/image_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+       
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_lost_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#666666"
+                android:textSize="17sp" />
+        </RelativeLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/space_20"
+            >
+            <TextView
+                android:id="@+id/tv_lost_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物归原主"
+                android:textColor="@color/GREENlIGHT"
+                android:textSize="@dimen/sp_13" />
+            <TextView
+                android:id="@+id/tv_create_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="11/19 12:00"
+                android:gravity="right"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+
+        </LinearLayout>
+     
+    </LinearLayout>
+
+</LinearLayout>

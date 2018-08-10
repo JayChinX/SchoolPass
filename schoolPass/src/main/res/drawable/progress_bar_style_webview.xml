@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置背景色（黑色） -->
+    <item android:id="@android:id/background">
+        <shape>
+
+            <!-- 进度条的四个棱角大小 0 为都是直角 随着值的增大角越圆滑 -->
+            <corners android:radius="0dip" />
+
+            <gradient
+                android:endColor="#00c0c0c0"
+                android:startColor="#00c0c0c0" />
+        </shape>
+    </item>
+
+    <!-- 设置进度条颜色（绿色） -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0dip" />
+
+                <gradient
+                    android:endColor="@color/color_progress_bar"
+                    android:startColor="@color/color_progress_bar" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

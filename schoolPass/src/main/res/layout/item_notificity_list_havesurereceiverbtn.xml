@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical" >
+
+    <!-- 带有 确认收到 按钮的 通知列表item -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/liner_notice"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_notice_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/send_list_off"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+            
+             <ImageView
+                android:id="@+id/liner_checkbox"
+                android:layout_width="60dp"
+                android:layout_height="60dp" 
+                  android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/space_18" >
+
+            <LinearLayout
+                android:id="@+id/ll_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notice_list_shape"
+                android:orientation="vertical"
+                android:padding="@dimen/space_17" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_notice_read_tag"
+                        android:layout_width="@dimen/space_20"
+                        android:layout_height="@dimen/space_20"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/icon_message_noread" />
+
+                    <TextView
+                        android:id="@+id/iv_notice_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_notice_read_tag"
+                        android:adjustViewBounds="true"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_notice_read_tag"
+                        android:background="@color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/black_dan"
+                        android:textSize="@dimen/sp_17" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail_replay_count_aa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#0099ff"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_replay_count_title_bb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_toLeftOf="@+id/tv_notice_detail_replay_count_aa"
+                        android:text="回复："
+                        android:textColor="#999999"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail_read_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/tv_replay_count_title_bb"
+                        android:textColor="#0099ff"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail_read_count_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_toLeftOf="@+id/tv_notice_detail_read_count"
+                        android:text="已读："
+                        android:textColor="#999999"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_notice_deatil_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="13dp"
+                        android:background="@color/gray1"
+                        android:minHeight="147dp"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_deatil_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:lineSpacingExtra="7dp"
+                        android:textColor="#666666"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/sp_13" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_deatil_from"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/GREENlIGHT"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button 
+                        android:id="@+id/btn_surehuizhirece"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_huizhi_queren"
+                        android:text="确认收到"
+                        android:textColor="@color/white"
+                       />
+                </LinearLayout>
+            </LinearLayout>
+            <View 
+            android:id="@+id/view_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_20"
+            android:layout_below="@+id/ll_notice"
+            android:visibility="gone"
+            />
+        </RelativeLayout>
+       
+    </RelativeLayout>
+
+</LinearLayout>

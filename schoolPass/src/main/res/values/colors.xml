@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#49C433</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+	<color name="red">#FFFF0000</color>
+	<color name="red2">#ff6c53</color>
+	<color name="black_dan">#454545</color>
+	<color name="white">#FFFFFF</color>
+	<color name="white_low">#fbfbfb</color>
+	<color name="white_sel">#F9F9F9</color>
+	<color name="whiteSmoke">#fff4f4f4</color>
+    <color name="home_gray">#EEEEEE</color>
+    <color name="col_account_bg">#F8F8F8</color>
+    <color name="main_tool_text_nor">#333333</color>
+    <color name="main_tool_text_pre">#28BBFF</color>
+    <color name="main_tool_bg">#FCFCFC</color>
+    <color name="title_line">#CCCCCC</color><!-- 1或者0.8在我的身边 -->
+    <color name="title_line_80t">#80CCCCCC</color><!-- 半透明 -->
+    <color name="title_focus_login">#54ACEC</color>
+    <color name="title_no_focus_login">#999999</color>
+    <color name="title_notice_title">#000000</color>
+    <color name="check_red">#CC0000</color>
+    <color name="check_blue">#00CC66</color>
+    <color name="col_mess_persion_renzheng">#51DF8C</color>
+    <color name="yellow_light">#ffefa717</color>
+    <color name="gray1">#ffaaaaaa</color>
+     <color name="gray2">#515151</color>
+    <color name="sign_btn">#C8C8C8</color>
+    <color name="color_progress_bar">#0099FF</color>
+    
+    <color name="blue_code">#1EC348</color>
+    <color name="red_code">#FF6699</color>
+    <color name="start_title_col">#666666</color>
+    <color name="black_code">#333333</color>
+    <color name="attence_nomal">#666666</color>
+    <color name="attence_lack">#cc0000</color>
+    <color name="attence_leave_early">#ffcc00</color>
+    <color name="attence_later">#ff6600</color>
+    <color name="attence_leave">#49c433</color>
+    
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    
+    <color name="tab_indicator_text_selected">#1EC348</color>
+    <color name="tab_indicator_text_unselected">#999999</color>
+    <color name="page_viewer_margin_color">#007800</color>
+    <color name="common_blue">#4b8bbd</color>
+    <color name="repair_blue">#28BBFF</color>
+    <color name="repair_red">#FD6250</color>
+    <color name="repair_grey">#78909C</color>
+    <color name="repair_qing">#51DF8D</color>
+	<color name="white_green">#F5FCF5</color>
+	<color name="GREENlIGHT">#1EC348</color>
+	<color name="GREEMORE">#1DAF41</color>
+    <color name="info_click_content">#EDEDED</color>
+	<color name="attence_normal">#63B2f9</color>
+	<color name="info_green_name">#49c433</color>
+	<color name="info_main_bg">#f6fcf5</color>
+	
+	<color name="for_help_blue">#8fd8fc</color>
+	<color name="for_help_report">#ffcd4c</color>
+	<color name="for_help_pay_start">#ff9900</color>
+	
+	<color name="navpage">#FFE1E8EB</color>
+	<color name="my">#ffffff</color>
+	<color name="course_main_bg">#E7E7E7</color>
+</resources> 

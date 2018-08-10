@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical"
+    android:paddingLeft="34dp"
+    android:paddingRight="34dp"
+    android:paddingTop="23dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="什么是实名认证？"
+        android:textColor="#1EC348"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="所在的学校统一开通高校通校务服务平台，\n\n校内师生完成实名制信息审核，即为实名\n\n认证用户"
+        android:textColor="#999999"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_marginTop="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实名认证用户有哪些好处？"
+        android:textColor="#1EC348"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="可以获取学校各级校务类通知信息;\n\n可查询会议、课表、成绩；\n\n真实的班级圈子；\n\n获取校内外活动信息。"
+        android:textColor="#999999"
+        android:textSize="13sp" />
+
+</LinearLayout>

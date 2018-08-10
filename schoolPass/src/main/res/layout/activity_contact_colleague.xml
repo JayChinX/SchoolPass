@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- 班级通讯录 -->
+
+    <LinearLayout
+        android:id="@+id/liner_class_contact1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- 搜索栏 -->
+
+        <RelativeLayout
+            android:id="@+id/rel_contace_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_20"
+            android:paddingRight="@dimen/space_20"
+            android:visibility="visible" >
+
+            <com.yuanding.schoolpass.view.contact.CustomEditText
+                android:id="@+id/school_friend_member_search_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_contact_search"
+                android:drawablePadding="@dimen/space_5"
+                android:drawableRight="@drawable/ic_edit_text_delbtn"
+                android:freezesText="true"
+                android:gravity="center_vertical"
+                android:hint="查找"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="1dp"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#999999"
+                android:textSize="@dimen/sp_17" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="#CCCCCC" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+                android:id="@+id/demo_swiperefreshlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical" >
+
+                <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                    android:id="@+id/school_friend_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@drawable/line_list_pub"
+                    android:dividerHeight="1px"
+                    android:fadingEdge="none"
+                    android:listSelector="@color/transparent"
+                    android:scrollbars="none" />
+            </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+
+            <TextView
+                android:id="@+id/school_friend_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_show_head_toast"
+                android:gravity="center"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/space_30"
+                android:visibility="invisible" />
+
+            <com.yuanding.schoolpass.view.contact.SideBar
+                android:id="@+id/school_friend_sidrbar"
+                android:layout_width="@dimen/space_30"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center"
+                android:layout_marginBottom="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_10" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/contact_acy_load_error_colleague"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/contact_acy_no_content_colleague"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/contact_acy_loading"
+        layout="@layout/pub_read_loading" />
+
+</LinearLayout>

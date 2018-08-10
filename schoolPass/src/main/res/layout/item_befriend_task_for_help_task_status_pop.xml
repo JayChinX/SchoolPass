@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/navigationbar_side_add_selectbg"
+    android:orientation="vertical" >
+
+    <!-- 取消任务 -->
+
+    <LinearLayout
+         android:id="@+id/liner_lecture_detail_quxiao_line"
+        android:layout_width="@dimen/space_167"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 取消任务 -->
+
+        <LinearLayout
+            android:id="@+id/liner_lecture_detail_quxiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_top_window_bg"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消任务"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#2E7E21" />
+    </LinearLayout>
+
+    <!-- 联系客户  常见问题 -->
+
+    <LinearLayout
+        android:layout_width="@dimen/space_167"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 联系客户 -->
+
+        <LinearLayout
+            android:id="@+id/liner_lecture_detail_kefu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_top_window_bg"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系客服"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#2E7E21" />
+
+        <!-- 常见问题 -->
+
+        <LinearLayout
+            android:id="@+id/liner_lecture_detail_wenti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_top_window_bg"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见问题"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

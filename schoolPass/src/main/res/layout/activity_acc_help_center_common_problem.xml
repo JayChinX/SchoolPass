@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_com_problem_list_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:visibility="gone" >
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/demo_swiperefreshlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" 
+             android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+            >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/lv_com_problem_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:cacheColorHint="@color/col_account_bg"
+                android:divider="@color/title_line"
+                android:dividerHeight="0.4dp"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:overScrollMode="never"
+                android:paddingBottom="0dp"
+                android:scrollbars="vertical"
+                android:scrollingCache="false" >
+            </com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView>
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/com_problem_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/com_problem_loading"
+        layout="@layout/pub_read_loading" />
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/com_problem_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

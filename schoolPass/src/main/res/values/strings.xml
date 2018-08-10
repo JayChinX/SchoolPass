@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">微校邦</string>
+    <string name="put_title_remind_exit">确定退出登录?</string>
+    <string name="pub_all">全部</string>
+    <string name="pub_error">错误</string>
+    <string name="pub_success">成功</string>
+    <string name="pub_search">搜索</string>
+    <string name="pub_confirm">确认</string>
+    <string name="pub_sure">确定</string>
+    <string name="pub_cancel">取消</string>
+    <string name="pub_yes">是</string>
+    <string name="pub_no">否</string>
+    <string name="pub_set">设置</string>
+    <string name="pub_open">打开</string>
+    <string name="pub_close">关闭</string>
+    <string name="pub_immediately_open">立即开启</string>
+    <string name="pub_temporarily_open">暂不开启</string>
+    <string name="pub_immediately_set">立即设置</string>
+    <string name="pub_temporarily_set">暂不设置</string>
+    <string name="save_draft">存草稿</string>
+    <string name="pub_about">关于</string>
+    <string name="pub_exit">退出</string>
+    <string name="pub_retry_look">再看看</string>
+    <string name="pub_delete">删除</string>
+    <string name="pub_load_faile">下载失败</string>
+    <string name="pub_loading">加载中…</string>
+    <string name="pub_title">提示</string>
+    <string name="pub_retry">重试</string>
+    <string name="pub_call">拨打</string>
+    <string name="pub_update">更新</string>
+    <string name="pub_is_lastest">已是最后一页了~</string>
+    <string name="pub_next_step">下一步</string>
+    <string name="pub_ignore">忽略</string>
+    <string name="pub_refush">拒绝</string>
+    <string name="pub_pass">通过</string>
+    <string name="check_new_version">请稍候,版本检测中</string>
+    <string name="str_user_is_delete">该用户已删除</string>
+    <string name="str_token_timeout">会话已过期，请重新登录</string>
+    <!-- 异常处理使用 -->
+    <!-- 融云其他设备登录使用 -->
+    <string name="kicked_notice_title">下线通知</string>
+    <string name="error_title_net_error">请检查您的网络设置</string>
+    <string name="error_title_net_timeout">请求网络超时</string>
+    <string name="error_title_analyze_error">系统数据异常</string>
+    <string name="error_title_request_error">系统繁忙,请重试</string>
+    <!-- A_0_1_Start_Acy -->
+    <string name="str_permission_request">权限申请</string>
+    <string name="pub_go_set">去设置</string>
+    <string name="str_start_tip">服务高效  交互畅通</string>
+    <string name="str_start_tip_one">Copyright©2015</string>
+    <!-- 信息页面 -->
+    <string name="str_my_mess_title">信息</string>
+    <string name="str_class_info">班级信息</string>
+    <string name="str_school_assistant">校务助手</string>
+    <string name="str_group_chat">班级群聊</string>
+    <string name="str_no_message_chat">暂无信息~</string>
+    <!-- 通讯录页面 -->
+    <string name="str_my_school_pass_title">通讯录</string>
+    <!-- 身边页面 -->
+    <string name="str_my_side_title">身边</string>
+    <!-- 我的页面 -->
+    <string name="str_title_no_group">您暂无群组</string>
+    <string name="str_my_account_title">我</string>
+    <string name="str_my_account_renzheng">认证信息</string>
+    <string name="str_my_account_phnone_no">手机号</string>
+    <string name="str_my_account_banji">我的班级</string>
+    <string name="str_my_account_collect">我的收藏</string>
+    <string name="str_my_account_set">设置</string>
+    <string name="str_my_bangdou">我的邦豆</string>
+    <string name="str_my_account_invite">邀请人</string>
+    <!-- 关于微校邦页面 -->
+    <string name="str_service_phone_number">4000073298</string>
+    <!-- 两个号码 -->
+    <string name="str_about_app_phone_number">400 — 007 — 3298</string>
+    <!-- 两个号码 -->
+    <string name="str_about_work_time">工作日9:00—18:00</string>
+    <string name="str_about_copyright">All Rights Reserved</string>
+    <string name="str_check_for_updates">检查更新</string>
+    <string name="pub_hava_download_update">安装</string>
+    <string name="str_product_description">产品介绍</string>
+    <string name="str_common_problem">常见问题</string>
+    <string name="str_contact_us">联系我们</string>
+    <!-- 登陆页面 -->
+    <string name="str_login_text">登录</string>
+    <string name="str_login_title_text">国家和地区  中国  +86</string>
+    <string name="str_login_moblile_title">手机号</string>
+    <string name="str_login_pwd_title">密码</string>
+    <string name="str_login_show_pwd">显示</string>
+    <string name="str_login_regedit_title">马上注册</string>
+    <string name="str_login_forgit_title">忘记密码？</string>
+    <string name="str_login_phone_no">手机号</string>
+    <string name="str_login_pwd">密码</string>
+    <!-- 注册页面 -->
+    <string name="str_get_verification_code">获取验证码</string>
+    <string name="str_yanzheng_no">验证手机号</string>
+    <string name="str_set_pwd">设置密码</string>
+    <string name="forget_pwd_max_count">错误次数已达到三次，请明日重试，\n或联系管理员：400-007-3298。</string>
+    <string name="str_receiver_no_title">接收验证码的手机号</string>
+    <string name="str_complete_regedit">完成注册</string>
+    <!-- 注册页面 -->
+    <string name="str_comple_mater">完善资料</string>
+    <string name="str_persion_message">个人信息</string>
+    <string name="str_sms_system_error">短信系统故障，请联系管理员：400-007-3298</string>
+    <!-- 通讯录页面 -->
+    <!-- <string name="str_login_text">登录</string> -->
+    <!-- 引导完善资料提示 -->
+    <string name="str_no_certified_not_use">您是未认证用户，暂无法使用该功能。</string>
+    <string name="str_no_certified_not_comment">您是未认证用户，暂不支持评论。</string>
+    <string name="str_no_certified_open">您的认证资料正在审核中，无法使用该功能，请耐心等待。</string>
+    <string name="str_going_right_now">现在就去</string>
+    <string name="str_need_to_improve_the_information">此功能需要您提交个人认证资料</string>
+    <!-- 考勤页面 -->
+    <string name="str_attence_pass_title">被标记为出勤</string>
+    <string name="str_attence_title">课堂考勤</string>
+    <string name="str_attence_overtime">请检查您的网络,并允许获取位置信息权限</string>
+    <string name="str_attence_help">课堂考勤使用帮助</string>
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <!-- 邀请页面 -->
+    <string name="str_my_account_invite_title">邀请</string>
+    <string name="str_my_account_invite_title_zuiyoubian">邀请说明</string>
+    <string name="str_my_account_invite_noknow">未知</string>
+    <string name="str_my_account_invite_bindsuccess">绑定成功！</string>
+    <string name="str_my_account_invite_bindfaileprompt_phonenumiskong">手机号不能为空</string>
+    <string name="str_my_account_invite_copyurlsuccess">已复制到剪切板</string>
+    <string name="str_my_account_invite_sharedisable_prompt">无法分享</string>
+    <!-- 邀请记录页面 -->
+    <string name="str_my_account_invite_record_title">我的邀请记录</string>
+    <string name="str_my_account_invite_record_noloadmore_prompt">没有更多啦</string>
+    <!-- 课程表页面 -->
+    <string name="str_course_name">课程表</string>
+    <string name="str_course_no_plan">本学期课程未制定或已结束</string>
+    <string name="str_course_name_title">课程名称</string>
+    <string name="str_course_teacher_name">任课教师</string>
+    <string name="str_course_user_tip">知道了</string>
+    <string name="str_copy_course_title">复制课表将覆盖当前课表信息!</string>
+    <!-- 委派考勤页面 -->
+    <string name="str_attdence_accept">接受委派</string>
+    <string name="str_attdence_accepted">已接受委派</string>
+    <!-- 帮帮 -->
+    <string name="str_help_task_help">帮帮</string>
+    <string name="str_help_please">求帮忙</string>
+    <string name="str_help_hint">有困难，找帮帮!</string>
+    <string name="str_help_task_home">帮帮中心</string>
+    <string name="str_take_task_detail">待领取</string>
+    <string name="str_send_task_title">我发的任务</string>
+    <string name="str_take_task_title">我领的任务</string>
+    <!--支付页面 -->
+    <string name="app_tip">支付完成标题页</string>
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+    <string name="str_my_application_forward">应用内转发</string>
+    <string name="str_my_weixin_friend">微信好友</string>
+    <string name="str_my_weixin_friend_circle">微信朋友圈</string>
+
+</resources>

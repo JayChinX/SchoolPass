@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ll_account_invite_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/col_account_bg"
+        android:visibility="gone"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/col_account_bg"
+            android:orientation="vertical" >
+
+            
+            <!-- 输入推荐人手机号推荐人 -->
+            
+            <LinearLayout
+                android:id="@+id/layout_inputinviter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_text_size_middle"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.2dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/title_line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:background="@color/col_account_bg"
+                        android:text="邀请我的人"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tx_top_rec_info_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_marginTop="@dimen/common_text_size_middle"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_15" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_33"
+                    android:layout_marginRight="@dimen/space_33"
+                    android:layout_marginTop="@dimen/common_text_size_middle"
+                    android:background="@drawable/login_input_normal_bg"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/edit_tjrphonenum"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="输入Ta的手机号"
+                        android:inputType="number"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textColorHint="#999999"
+                        android:textSize="@dimen/sp_17" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_committjrphonenum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/space_22"
+                    android:layout_marginRight="@dimen/space_22"
+                    android:background="@drawable/login_button_bg"
+                    android:text="提交"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_20" />
+            </LinearLayout>
+
+            <!-- 推荐人头像 -->
+
+            <LinearLayout
+                android:id="@+id/layout_invitermsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_text_size_middle"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.2dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/title_line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:background="@color/col_account_bg"
+                        android:text="邀请我的人"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_17" >
+
+                    <com.yuanding.schoolpass.view.CircleImageView
+                        android:id="@+id/img_tjrheadimage"
+                        android:layout_width="@dimen/space_100"
+                        android:layout_height="@dimen/space_100"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="3dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tx_tjrname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_17"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_25" />
+
+                <TextView
+                    android:id="@+id/tx_tjrclass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_11"
+                     android:textColor="@color/start_title_col"
+                    android:textSize="@dimen/sp_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_share"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_marginTop="@dimen/space_24" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.2dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/title_line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:background="@color/col_account_bg"
+                        android:text="我也去邀请"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_temp_invite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_18"
+                    android:background="@color/col_account_bg"
+
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <Button
+                    android:id="@+id/btn_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/space_22"
+                    android:layout_marginRight="@dimen/space_22"
+                    android:background="@drawable/login_button_bg"
+                    android:text="分享"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_20" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tx_detailrule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/common_text_size_middle"
+                        android:background="@color/col_account_bg"
+                        android:lineSpacingExtra="@dimen/space_10"
+                        android:textColor="@color/gray2"
+                        android:textSize="@dimen/sp_16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/col_account_bg"
+                        android:text="详细规则"
+                        android:textColor="@color/main_color"
+                        android:textSize="@dimen/sp_16"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_inviterecord_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_marginTop="@dimen/common_text_size_middle"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.2dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/title_line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:background="@color/col_account_bg"
+                        android:text="我的邀请记录"
+                        android:textColor="@color/title_no_focus_login"
+                        android:textSize="@dimen/sp_13" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/lv_inviterecord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_text_size_middle"
+                    android:divider="#00000000" >
+                </ListView>
+
+                <LinearLayout
+                    android:id="@+id/layout_loadmore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <View
+                        android:id="@+id/v_down_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/title_line_80t" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/white"
+                        android:padding="15dp"
+                        android:text="查看更多"
+                        android:textColor="@color/gray2"
+                        android:textSize="@dimen/sp_16" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/account_invite_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/account_invite_loading"
+        layout="@layout/pub_read_loading" />
+
+    <include
+        android:id="@+id/account_invite_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

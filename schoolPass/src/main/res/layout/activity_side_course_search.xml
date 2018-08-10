@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <!-- 搜索栏 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" 
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <com.yuanding.schoolpass.view.contact.CustomEditText
+            android:id="@+id/CustomEditText_select_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_contact_search"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_edit_text_delbtn"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="center_vertical"
+            android:hint="没找到对应的教师？这里搜一下"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="1dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tx_btnserach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/CustomEditText_select_course"
+            android:text="搜索"
+            android:textColor="@color/gray1"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="#CCCCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/liner_select_course_whole_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            
+            <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+                android:id="@+id/demo_swiperefreshlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical" >
+
+                <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                    android:id="@+id/lv_mess_select_course"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@null"
+                    android:fadingEdge="none"
+                    android:footerDividersEnabled="false"
+                    android:headerDividersEnabled="false"
+                    android:listSelector="@color/transparent"
+                    android:minHeight="180dp"
+                    android:overScrollMode="never"
+                    android:paddingRight="10dp"
+                    android:scrollbars="none" />
+            </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+           
+        </LinearLayout>
+
+        <include
+            android:id="@+id/select_course_load_error"
+            layout="@layout/pub_read_faile"
+            android:visibility="gone" />
+        <!-- 加载中 -->
+
+        <include
+            android:id="@+id/select_course_acy_loading"
+            layout="@layout/pub_read_loading" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_12"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/space_20"
+        android:paddingRight="@dimen/space_20" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝账户"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:id="@+id/tv_present_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_27"
+                android:text="去绑定支付宝账户"
+                android:textColor="#33bdff"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.7"
+            android:background="@drawable/line_list_pub" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提现金额"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_present_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_40"
+                android:background="@color/white"
+                android:hint="最多能提现55.00"
+                android:textColor="@color/title_no_focus_login"
+                android:textSize="@dimen/sp_15" 
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/space_25"
+        android:layout_below="@+id/liner_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="申请成功后,1-7个工作日到账"
+        android:textColor="@color/title_no_focus_login"
+        android:textSize="@dimen/sp_12" />
+
+    <Button
+        android:id="@+id/btn_present_commit"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_56"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:text="提交提现申请"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16" />
+
+</RelativeLayout>

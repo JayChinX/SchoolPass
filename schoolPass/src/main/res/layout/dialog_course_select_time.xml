@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:background="@drawable/notice_list_shape" >
+
+        <TextView
+            android:id="@+id/tv_wheel_week_title"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/start_title_col"
+            android:padding="@dimen/space_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="选择上课时间"/>
+
+        <View
+            android:layout_marginRight="@dimen/space_17"
+            android:layout_marginLeft="@dimen/space_17"
+            android:id="@+id/temp_001"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.7"
+            android:layout_below="@+id/tv_wheel_week_title"
+            android:background="@color/title_line" />
+
+        <LinearLayout
+            android:id="@+id/liner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temp_001"
+            android:layout_marginLeft="@dimen/space_33"
+            android:layout_marginRight="@dimen/space_33"
+            android:orientation="horizontal" 
+            android:gravity="center_horizontal">
+
+            <com.yuanding.schoolpass.view.WheelView
+                android:id="@+id/wheel_view_wv01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            
+            <com.yuanding.schoolpass.view.WheelView
+                android:id="@+id/wheel_view_wv02"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            
+            <com.yuanding.schoolpass.view.WheelView
+                android:id="@+id/wheel_view_wv03"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_45"
+            android:layout_marginBottom="@dimen/space_18"
+            android:textColor="@color/black_code"
+            android:padding="@dimen/space_15"
+            android:textSize="@dimen/sp_13"
+            android:background="@color/transparent"
+            android:layout_below="@+id/liner"
+            android:gravity="center"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/bt_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_50"
+            android:layout_marginBottom="@dimen/space_18"
+            android:textColor="@color/main_color"
+            android:padding="@dimen/space_15"
+            android:textSize="@dimen/sp_13"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/liner"
+            android:gravity="center"
+            android:text="确定" />
+    </RelativeLayout>
+
+</LinearLayout>

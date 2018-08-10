@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_65">
+	    <com.yuanding.schoolpass.view.CircleImageView
+	      android:layout_marginLeft="@dimen/space_15"
+	        android:id="@+id/iv_black_list_por"
+	        android:layout_width="45dip"
+	        android:layout_height="45dip"
+	        android:background="@drawable/i_default_por_120"
+	        android:layout_centerVertical="true"/>
+	    
+	    <TextView 
+	        android:id="@+id/tv_black_list_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/iv_black_list_por"
+	        android:layout_marginLeft="@dimen/sp_17"
+	        android:textColor="#333333"
+	        android:textSize="@dimen/space_15"/>
+
+	    <ImageView
+	        android:id="@+id/iv_black_lsit_check"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="@dimen/sp_20"
+	        android:visibility="gone"
+	        android:background="@drawable/register_box_unselected" />
+
+    </RelativeLayout>
+</LinearLayout>

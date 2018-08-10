@@ -1,0 +1,2021 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:17:1-22:12
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-100:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.1.3.aar\831b643dad6f177694aedbe75bb8cfcf\AndroidManifest.xml:2:1-11:12
+MERGED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:2:1-17:12
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\a8cfdccc4e228c9dbbf252ed96033e74\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:1-1306:12
+	package
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:5:5-35
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+application
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:12:5-1219:19
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-98:19
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:5-98:19
+MERGED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:11:5-14:19
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\a8cfdccc4e228c9dbbf252ed96033e74\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\a8cfdccc4e228c9dbbf252ed96033e74\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:16:9-41
+	android:largeHeap
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:14:9-36
+		REJECTED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:18-44
+		REJECTED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:12:9-35
+		REJECTED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:12:9-35
+	tools:replace
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:19:9-57
+	android:taskAffinity
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:18:9-60
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:13:9-55
+activity#com.yuanding.schoolpass.A_1_Start_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:21:9-31:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:25:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:22:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:28:27-74
+service#com.yuanding.schoolpass.service.BackService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:33:9-41:19
+	android:enabled
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:36:13-37
+	android:persistent
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:37:13-38
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:34:13-48
+intent-filter#action:name:hehhe
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:38:13-40:29
+	android:priority
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:38:28-51
+action#hehhe
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:39:17-48
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:39:25-45
+activity#com.yuanding.schoolpass.A_2_Intro_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:44:9-48:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:47:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:46:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:48:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:45:13-42
+activity#com.yuanding.schoolpass.A_Main_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:51:9-57:76
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:55:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:54:13-44
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:57:13-64
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:53:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:56:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:52:13-39
+activity#com.yuanding.schoolpass.A_Main_My_Message_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:61:9-74:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:64:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:63:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:66:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:62:13-50
+intent-filter#action:name:hehhe+data:host:com.yuanding.schoolpass+data:pathPrefix:/conversationlist+data:scheme:rong
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:67:13-73:29
+data
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:68:17-71:45
+	android:path
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:901:21-56
+	android:host
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:69:21-59
+	android:scheme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:71:21-42
+	android:pathPrefix
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:70:21-59
+activity#com.yuanding.schoolpass.A_Main_My_Side_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:76:9-81:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:79:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:78:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:81:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:77:13-47
+activity#com.yuanding.schoolpass.A_Main_My_Account_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:84:9-89:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:88:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:87:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:86:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:89:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:85:13-50
+activity#com.yuanding.schoolpass.A_3_0_Login_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:92:9-97:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:95:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:97:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:94:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:96:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:93:13-44
+activity#com.yuanding.schoolpass.A_3_1_1_Forget_Main_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:100:9-105:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:103:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:105:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:102:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:104:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:101:13-52
+activity#com.yuanding.schoolpass.A_3_1_2_Forget_Friend_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:108:9-113:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:111:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:113:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:110:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:112:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:109:13-77
+activity#com.yuanding.schoolpass.A_3_1_3_Forget_SetPassWord_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:116:9-121:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:121:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:118:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:120:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:117:13-59
+activity#com.yuanding.schoolpass.A_3_2_Register_Main_0_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:124:9-129:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:127:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:129:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:126:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:128:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:125:13-54
+activity#com.yuanding.schoolpass.A_3_2_Register_Main_1_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:132:9-137:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:135:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:137:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:134:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:136:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:133:13-54
+activity#com.yuanding.schoolpass.A_3_2_Register_Main_2_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:140:9-145:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:143:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:145:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:142:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:144:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:141:13-54
+activity#com.yuanding.schoolpass.B_Account_Certivication_Temp_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:148:9-152:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:151:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:150:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:152:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:149:13-61
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_0
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:155:9-159:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:158:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:157:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:159:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:156:13-61
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_Task
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:162:9-166:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:165:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:164:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:166:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:163:13-66
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_CommonProblem
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:169:9-173:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:172:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:171:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:173:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:170:13-75
+activity#com.yuanding.schoolpass.A_3_3_Complete_marer_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:176:9-180:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:179:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:178:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:180:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:177:13-53
+activity#com.yuanding.schoolpass.A_3_3_Complete_Marer_Modify_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:183:9-187:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:186:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:185:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:187:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:184:13-60
+activity#com.yuanding.schoolpass.A_3_3_Complete_Marer_Nodify_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:190:9-194:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:193:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:192:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:194:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:191:13-60
+activity#com.yuanding.schoolpass.A_3_3_Complete_Selcet_Class
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:197:9-201:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:200:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:199:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:201:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:198:13-56
+activity#com.yuanding.schoolpass.A_3_3_Complete_Selcet_School
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:204:9-208:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:207:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:206:13-57
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:208:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:205:13-57
+activity#com.yuanding.schoolpass.A_3_4_Forget_pwd_Succ_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:211:9-215:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:214:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:213:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:215:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:212:13-54
+activity#com.yuanding.schoolpass.A_3_5_Change_No_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:218:9-222:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:221:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:220:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:222:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:219:13-48
+activity#com.yuanding.schoolpass.A_3_6_Change_No_Success_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:225:9-229:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:228:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:227:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:229:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:226:13-56
+activity#com.yuanding.schoolpass.B_Account_Modify_Pwd_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:232:9-236:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:235:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:234:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:236:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:233:13-53
+activity#com.yuanding.schoolpass.A_Main_My_Contact_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:239:9-244:76
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:242:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:244:13-64
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:241:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:243:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:240:13-50
+activity#com.yuanding.schoolpass.B_Account_Invite_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:248:9-252:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:251:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:250:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:252:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:249:13-73
+activity#com.yuanding.schoolpass.B_Account_Invite_InviteRecord
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:255:9-259:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:258:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:257:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:259:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:256:13-81
+activity#com.yuanding.schoolpass.B_Account_SystemNotice_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:262:9-267:79
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:265:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:267:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:264:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:266:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:263:13-79
+activity#com.yuanding.schoolpass.B_Account_My_Set_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:271:9-275:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:274:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:273:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:275:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:272:13-49
+activity#com.yuanding.schoolpass.B_Account_Push_Set_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:278:9-282:81
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:281:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:280:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:282:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:279:13-51
+activity#com.yuanding.schoolpass.B_Account_Push_Trouble_Set_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:285:9-289:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:288:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:287:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:289:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:286:13-59
+activity#com.yuanding.schoolpass.B_Account_MySet_About_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:292:9-296:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:295:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:294:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:296:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:293:13-77
+activity#com.yuanding.schoolpass.B_Account_MySet_About_Call_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:299:9-303:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:302:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:301:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:303:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:300:13-82
+activity#com.yuanding.schoolpass.B_Account_FeedBack_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:306:9-310:81
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:309:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:308:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:310:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:307:13-51
+activity#com.yuanding.schoolpass.B_Account_BlackList_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:313:9-317:81
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:316:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:315:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:317:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:314:13-52
+activity#com.yuanding.schoolpass.Pub_WebView_Load_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:320:9-324:73
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:323:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:322:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:324:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:321:13-72
+activity#com.yuanding.schoolpass.Pub_WebView_Load_Coupon
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:326:9-330:73
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:329:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:328:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:330:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:327:13-75
+activity#com.yuanding.schoolpass.Pub_WebView_Load_Befriend
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:332:9-336:73
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:335:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:334:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:336:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:333:13-77
+activity#com.yuanding.schoolpass.Pub_WebView_Banner_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:338:9-342:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:341:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:340:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:342:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:339:13-74
+activity#com.yuanding.schoolpass.Pub_WebView_Load_Other_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:345:9-349:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:348:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:347:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:349:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:346:13-78
+activity#com.yuanding.schoolpass.B_Side_Acy_list_Scy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:352:9-357:79
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:355:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:357:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:354:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:356:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:353:13-48
+activity#com.yuanding.schoolpass.B_Side_Course_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:360:9-364:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:363:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:362:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:364:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:361:13-46
+activity#com.yuanding.schoolpass.B_Side_Course_Add
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:367:9-371:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:370:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:369:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:371:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:368:13-46
+activity#com.yuanding.schoolpass.B_Side_Course_Search
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:374:9-378:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:377:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:376:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:378:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:375:13-49
+activity#com.yuanding.schoolpass.B_Side_Course_Search_Teacher
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:381:9-385:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:384:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:383:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:385:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:382:13-57
+activity#com.yuanding.schoolpass.B_Side_Course_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:388:9-392:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:391:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:390:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:392:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:389:13-49
+activity#com.yuanding.schoolpass.B_Side_Course_Select_Image_temp
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:395:9-399:90
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:398:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:397:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:399:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:396:13-60
+activity#com.yuanding.schoolpass.B_Side_Info_0_Main_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:403:9-408:79
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:406:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:408:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:405:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:407:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:404:13-74
+activity#com.yuanding.schoolpass.B_Side_Info_1_Detail_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:411:9-416:79
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:414:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:416:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:413:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:415:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:412:13-76
+activity#com.yuanding.schoolpass.B_Pub_Side_NoDo_Action
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:418:9-422:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:421:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:420:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:422:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:419:13-51
+activity#com.yuanding.schoolpass.B_Side_Lectures_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:425:9-429:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:428:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:427:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:429:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:426:13-48
+activity#com.yuanding.schoolpass.B_Side_Lectures_Detail_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:432:9-436:73
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:435:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:434:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:436:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:433:13-55
+activity#com.yuanding.schoolpass.B_Side_Lost_Found_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:439:9-443:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:442:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:441:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:443:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:440:13-51
+activity#com.yuanding.schoolpass.B_Side_Found_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:446:9-450:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:449:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:448:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:450:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:447:13-48
+activity#com.yuanding.schoolpass.B_Side_Found_Detail_Forward
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:454:9-458:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:457:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:456:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:458:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:455:13-56
+activity#com.yuanding.schoolpass.B_Side_Found_Add_Found
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:461:9-465:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:464:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:463:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:465:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:462:13-51
+activity#com.yuanding.schoolpass.B_Side_Found_Edit_Found
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:468:9-472:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:471:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:470:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:472:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:469:13-52
+activity#com.yuanding.schoolpass.B_Side_Found_Add_Images
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:476:9-480:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:479:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:478:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:480:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:477:13-52
+activity#com.yuanding.schoolpass.B_Side_Found_Add_ImageGridActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:483:9-487:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:486:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:485:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:487:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:484:13-63
+activity#com.yuanding.schoolpass.B_Side_Found_Add_BitmapCache
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:490:9-494:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:493:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:492:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:494:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:491:13-57
+activity#com.yuanding.schoolpass.B_Side_Found_Search
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:497:9-501:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:500:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:499:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:501:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:498:13-48
+activity#com.yuanding.schoolpass.B_Side_Found_BigImage
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:504:9-508:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:507:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:506:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:508:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:505:13-50
+activity#com.yuanding.schoolpass.B_Side_Lost_Found_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:512:9-516:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:515:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:514:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:516:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:513:13-50
+activity#com.yuanding.schoolpass.B_Side_Achievement_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:519:9-523:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:522:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:521:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:523:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:520:13-51
+activity#com.yuanding.schoolpass.B_Side_Repair_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:525:9-529:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:528:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:527:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:529:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:526:13-47
+activity#com.yuanding.schoolpass.B_Side_Repair_My
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:532:9-536:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:535:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:534:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:536:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:533:13-45
+activity#com.yuanding.schoolpass.B_Side_Repair_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:539:9-543:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:542:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:541:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:543:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:540:13-49
+activity#com.yuanding.schoolpass.B_Side_Repair_Add
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:546:9-551:79
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:549:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:551:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:548:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:550:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:547:13-46
+activity#com.yuanding.schoolpass.B_Mess_Attdence_Main_0_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:554:9-559:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:557:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:559:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:556:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:558:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:555:13-55
+activity#com.yuanding.schoolpass.B_Side_Attence_Main_A0
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:562:9-566:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:565:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:564:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:566:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:563:13-51
+activity#com.yuanding.schoolpass.B_Side_Attence_Main_A1_New_Attence
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:568:9-572:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:571:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:570:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:572:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:569:13-63
+activity#com.yuanding.schoolpass.B_Side_Attence_Main_A2_Add_Contact
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:575:9-579:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:578:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:577:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:579:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:576:13-62
+activity#com.yuanding.schoolpass.B_Side_Attence_Main_A3_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:582:9-586:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:585:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:584:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:586:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:583:13-57
+activity#com.yuanding.schoolpass.B_Mess_Attdence_Main_1_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:589:9-593:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:592:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:591:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:593:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:590:13-81
+activity#com.yuanding.schoolpass.bangbang.B_Side_Befriend_A0_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:596:9-601:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:600:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:599:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:598:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:601:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:597:13-84
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_Balance
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:604:9-608:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:607:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:606:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:608:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:605:13-69
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_2_Bill_Present
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:611:9-615:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:614:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:613:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:615:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:612:13-74
+activity#com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_PresentBind
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:618:9-622:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:621:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:620:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:622:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:619:13-73
+activity#com.yuanding.schoolpass.bangbang.B_Side_Befriend_A1_Take_Or_Send
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:625:9-637:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:630:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:629:13-43
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:628:13-36
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:627:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:631:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:626:13-92
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:wx41dbca0a55ba6ea7
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:632:13-636:29
+action#android.intent.action.VIEW
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:633:17-69
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:633:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:634:17-76
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:634:27-73
+activity#com.yuanding.schoolpass.bangbang.B_Side_Befriend_A1_Teach_Repair_Other
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:641:9-653:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:646:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:645:13-43
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:644:13-36
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:643:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:647:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:642:13-98
+activity#com.yuanding.schoolpass.bangbang.B_Side_Befriend_C1_Task_Status_Details
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:656:9-661:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:660:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:659:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:658:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:661:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:657:13-99
+activity#com.yuanding.schoolpass.wxapi.WXPayEntryActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:665:9-671:20
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:668:13-43
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:667:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:666:13-53
+activity#com.yuanding.schoolpass.wxapi.WXEntryActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:673:9-676:64
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:675:13-36
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:676:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:674:13-50
+activity#com.yuanding.schoolpass.B_Mess_Notice_Detail_Official_News
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:680:9-684:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:683:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:682:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:684:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:681:13-63
+activity#com.yuanding.schoolpass.B_Mess_Notice_All_Search
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:687:9-692:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:690:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:692:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:689:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:691:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:688:13-53
+activity#com.yuanding.schoolpass.B_Mess_Notice_All_Search_MoreUser
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:695:9-700:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:698:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:700:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:697:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:699:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:696:13-62
+activity#com.yuanding.schoolpass.B_Mess_Notice_All_Search_MoreMess
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:703:9-708:64
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:706:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:708:13-52
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:705:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:707:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:704:13-62
+activity#com.yuanding.schoolpass.B_Mess_Notice_List
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:712:9-717:70
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:715:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:717:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:714:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:716:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:713:13-47
+activity#com.yuanding.schoolpass.B_Mess_Notice_List_WaitSure
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:720:9-724:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:723:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:722:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:724:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:721:13-56
+activity#com.yuanding.schoolpass.B_Mess_Official_List
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:727:9-731:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:730:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:729:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:731:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:728:13-72
+activity#com.yuanding.schoolpass.B_Mess_School_Assistant_Main
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:734:9-738:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:737:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:736:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:738:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:735:13-57
+activity#com.yuanding.schoolpass.B_Mess_School_Assistant_0_List_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:741:9-745:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:744:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:743:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:745:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:742:13-63
+activity#com.yuanding.schoolpass.B_Mess_School_Assistant_1_Detai_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:748:9-752:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:751:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:750:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:752:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:749:13-64
+activity#com.yuanding.schoolpass.B_Contact_Out_School_Click_Item_List
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:755:9-759:53
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:758:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:757:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:759:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:756:13-65
+activity#com.yuanding.schoolpass.B_Mess_Persion_Info
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:762:9-766:81
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:765:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:764:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:766:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:763:13-48
+activity#com.yuanding.schoolpass.B_Mess_Group_Info
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:769:9-773:81
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:772:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:771:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:773:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:770:13-46
+activity#com.yuanding.schoolpass.B_Mess_Notice_Detail
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:776:9-781:70
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:779:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:781:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:778:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:780:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:777:13-49
+activity#com.yuanding.schoolpass.B_Mess_Notice_Detail_Sys
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:784:9-789:70
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:787:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:789:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:786:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:788:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:785:13-53
+activity#com.yuanding.schoolpass.B_Mess_Notice_Detail_MessText
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:792:9-797:70
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:795:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:797:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:794:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:796:13-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:793:13-58
+activity#com.yuanding.schoolpass.B_Side_Acy_list_Detail_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:800:9-805:70
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:803:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:805:13-67
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:802:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:804:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:801:13-55
+activity#com.yuanding.schoolpass.B_Contact_Out_School_Search_Item
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:808:9-813:58
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:811:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:813:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:810:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:812:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:809:13-61
+activity#com.yuanding.schoolpass.Conversation_Location_Acy
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:816:9-821:58
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:819:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:821:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:818:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:820:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:817:13-54
+activity#com.yuanding.schoolpass.B_Mess_Chat_Photo_Display
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:824:9-829:58
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:827:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:829:13-55
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:826:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:828:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:825:13-54
+activity#com.yuanding.schoolpass.B_Side_Found_BigImage2
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:832:9-836:62
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:835:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:834:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:836:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:833:13-51
+activity#com.yuanding.schoolpass.ConversationActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:839:9-853:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:843:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:842:13-44
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:844:13-67
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:841:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:840:13-49
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:com.yuanding.schoolpass+data:pathPrefix:/conversation/+data:scheme:rong
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:845:13-852:29
+activity#io.rong.imkit.activity.PictureSelectorActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:855:9-858:61
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:9-39:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:858:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:857:13-63
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:856:13-74
+activity#io.rong.imkit.activity.PicturePreviewActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:859:9-861:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:9-42:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:861:13-49
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:860:13-73
+activity#io.rong.imkit.tools.RongWebviewActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:862:9-864:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:43:9-45:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:864:13-49
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:863:13-67
+activity#io.rong.imkit.widget.provider.TakingPicturesActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:865:9-868:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:46:9-49:52
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:46:9-49:52
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:868:13-49
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:867:13-63
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:866:13-80
+activity#com.yuanding.schoolpass.B_Mess_Forward_Select
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:871:9-876:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:874:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:876:13-64
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:873:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:875:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:872:13-50
+activity#com.yuanding.schoolpass.B_Mess_Forward_Select_ClassMate
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:879:9-884:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:882:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:884:13-64
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:881:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:883:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:880:13-60
+activity#com.yuanding.schoolpass.B_Mess_Forward_Select_Teacher
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:887:9-892:67
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:890:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:892:13-64
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:889:13-63
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:891:13-50
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:888:13-58
+activity#com.yuanding.schoolpass.view.rongyun.RongSubActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:894:9-905:20
+	android:screenOrientation
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:897:13-49
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:896:13-44
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:895:13-80
+intent-filter#action:name:hehhe+data:host:com.yuanding.schoolpass+data:path:/subconversationlist+data:scheme:rong
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:898:13-904:29
+activity#com.baidu.android.pushservice.richmedia.MediaViewActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:910:9-913:58
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:913:13-46
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:912:13-63
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:911:13-85
+activity#com.baidu.android.pushservice.richmedia.MediaListActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:914:9-918:56
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:917:13-46
+	android:launchMode
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:918:13-44
+	android:configChanges
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:916:13-63
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:915:13-85
+receiver#com.yuanding.schoolpass.service.BaiduPushMessageReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:922:9-931:20
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:922:19-90
+intent-filter#action:name:com.baidu.android.pushservice.action.MESSAGE+action:name:com.baidu.android.pushservice.action.RECEIVE+action:name:com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:923:13-930:29
+action#com.baidu.android.pushservice.action.MESSAGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:926:17-87
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:926:25-84
+action#com.baidu.android.pushservice.action.RECEIVE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:928:17-87
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:928:25-84
+action#com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:929:17-98
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:929:25-95
+receiver#com.baidu.android.pushservice.PushServiceReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:934:9-948:20
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:936:13-44
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:935:13-77
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.baidu.android.pushservice.action.media.CLICK+action:name:com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:937:13-947:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:938:17-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:938:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:939:17-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:939:25-76
+action#com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:940:17-97
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:940:25-94
+action#com.baidu.android.pushservice.action.media.CLICK
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:941:17-91
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:941:25-88
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:943:17-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:943:25-75
+action#android.intent.action.USER_PRESENT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:944:17-77
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:944:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:945:17-87
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:945:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:946:17-90
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:946:25-87
+receiver#com.baidu.android.pushservice.RegistrationReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:949:9-961:20
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:951:13-44
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:950:13-78
+intent-filter#action:name:com.baidu.android.pushservice.action.BIND_SYNC+action:name:com.baidu.android.pushservice.action.METHOD
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:952:13-955:29
+action#com.baidu.android.pushservice.action.METHOD
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:953:17-86
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:953:25-83
+action#com.baidu.android.pushservice.action.BIND_SYNC
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:954:17-89
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:954:25-86
+intent-filter#action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:956:13-960:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:957:17-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:957:25-77
+service#com.baidu.android.pushservice.PushService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:963:9-970:19
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:966:13-44
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:965:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:964:13-69
+intent-filter#action:name:com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:967:13-969:29
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:968:17-92
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:968:25-89
+service#com.baidu.android.pushservice.CommandService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:971:9-973:39
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:973:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:972:13-72
+provider#com.baidu.android.pushservice.PushInfoProvider
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:976:9-981:110
+	android:authorities
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:978:13-65
+	android:protectionLevel
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:980:13-48
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:979:13-36
+	android:writePermission
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:981:13-107
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:977:13-74
+meta-data#api_key
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:989:9-991:56
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:991:13-53
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:990:13-35
+service#io.rong.push.PushService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:995:9-1004:19
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:9-75:46
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:9-75:46
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:998:13-43
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:997:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:996:13-52
+intent-filter#action:name:io.rong.push+category:name:android.intent.category.DEFAULT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:999:13-1003:29
+action#io.rong.push
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1002:17-55
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1002:25-52
+receiver#com.yuanding.schoolpass.service.DemoNotificationReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1007:9-1016:20
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1009:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1008:13-84
+intent-filter#action:name:io.rong.push.intent.MESSAGE_ARRIVED+action:name:io.rong.push.intent.MESSAGE_CLICKED+action:name:io.rong.push.intent.MI_MESSAGE_ARRIVED+action:name:io.rong.push.intent.MI_MESSAGE_CLICKED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1010:13-1015:29
+action#io.rong.push.intent.MESSAGE_ARRIVED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1011:17-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1011:25-75
+action#io.rong.push.intent.MI_MESSAGE_ARRIVED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1012:17-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1012:25-78
+action#io.rong.push.intent.MESSAGE_CLICKED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1013:17-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1013:25-75
+action#io.rong.push.intent.MI_MESSAGE_CLICKED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1014:17-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1014:25-78
+service#io.rong.imlib.ipc.RongService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1019:9-1022:46
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:9-54:38
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:9-54:38
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1022:13-35
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1021:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1020:13-57
+service#io.rong.imlib.ReConnectService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1023:9-1025:40
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:9-66
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:9-66
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1025:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1024:13-58
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1027:9-1034:20
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-72
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-72
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1029:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1028:13-63
+intent-filter#action:name:io.rong.push.message
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1031:13-1033:29
+action#io.rong.push.message
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1032:17-63
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1032:25-60
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1035:9-1038:38
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:9-60:38
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:9-60:38
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1038:13-35
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1037:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1036:13-59
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1040:9-1042:45
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-64:45
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-64:45
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1042:13-42
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1041:13-46
+service#io.rong.push.core.PushRegistrationService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1045:9-1047:48
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:9-71:40
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1047:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1046:13-69
+service#io.rong.push.core.MessageHandleService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1054:9-1056:48
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:9-78:40
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:9-78:40
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1056:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1055:13-66
+receiver#io.rong.push.PushReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1058:9-1076:20
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:9-97:20
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:9-97:20
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1061:13-43
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1060:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1059:13-53
+intent-filter#action:name:io.rong.push.intent.action.HEART_BEAT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1062:13-1064:29
+action#io.rong.push.intent.action.HEART_BEAT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1063:17-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1063:25-77
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1065:13-1067:29
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1068:13-1070:29
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.USER_PRESENT
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1071:13-1075:29
+meta-data#TencentMapSDK
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1083:9-1085:67
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1085:13-64
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1084:13-41
+service#com.baidu.location.f
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1088:9-1095:19
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1091:13-38
+	android:enabled
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1090:13-35
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1089:13-48
+intent-filter#action:name:com.baidu.location.service_v2.2
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1092:13-1094:29
+action#com.baidu.location.service_v2.2
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1093:17-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1093:25-71
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1096:9-1098:64
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1098:13-61
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1097:13-52
+meta-data#PUSH_APPID
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1119:9-1121:54
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1121:13-51
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1120:13-38
+meta-data#PUSH_APPKEY
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1122:9-1124:54
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1124:13-51
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1123:13-39
+meta-data#PUSH_APPSECRET
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1125:9-1127:54
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1127:13-51
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1126:13-42
+receiver#com.yuanding.schoolpass.service.PushDemoReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1139:9-1146:20
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1141:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1140:13-76
+intent-filter#action:name:com.igexin.sdk.action.vNK9fLZ6GG91GtIAuFPlq9
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1142:13-1145:29
+action#com.igexin.sdk.action.vNK9fLZ6GG91GtIAuFPlq9
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1143:17-87
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1143:25-84
+service#com.igexin.sdk.PushService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1149:9-1157:19
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1153:13-43
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1152:13-47
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1151:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1150:13-54
+intent-filter#action:name:com.igexin.sdk.action.service.message
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1154:13-1156:29
+action#com.igexin.sdk.action.service.message
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1155:17-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1155:25-77
+service#com.igexin.sdk.PushServiceUser
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1158:9-1161:62
+	android:label
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1161:13-51
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1160:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1159:13-58
+receiver#com.igexin.sdk.PushReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1163:9-1174:20
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1163:19-61
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.igexin.sdk.action.refreshls
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1164:13-1173:29
+action#com.igexin.sdk.action.refreshls
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1168:17-74
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1168:25-71
+receiver#com.igexin.sdk.PushManagerReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1175:9-1181:20
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1177:13-37
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1176:13-62
+intent-filter#action:name:com.igexin.sdk.action.pushmanager
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1178:13-1180:29
+action#com.igexin.sdk.action.pushmanager
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1179:17-76
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1179:25-73
+activity#com.igexin.sdk.PushActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1183:9-1189:84
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1187:13-43
+	android:excludeFromRecents
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1185:13-46
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1186:13-37
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1189:13-72
+	android:taskAffinity
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1188:13-67
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1184:13-55
+service#com.igexin.download.DownloadService
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1191:9-1193:46
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1193:13-43
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1192:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1195:9-1199:20
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1195:19-70
+provider#com.igexin.download.DownloadProvider
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1201:9-1205:46
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1205:13-43
+	android:authorities
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1203:13-68
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1204:13-36
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1202:13-64
+activity#com.igexin.sdk.GActivity
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1207:9-1213:75
+	android:process
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1211:13-43
+	android:excludeFromRecents
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1209:13-46
+	android:exported
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1210:13-36
+	android:theme
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1213:13-72
+	android:taskAffinity
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1212:13-67
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1208:13-52
+meta-data#UMENG_CHANNEL
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1216:9-1218:42
+	android:value
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1218:13-39
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1217:13-41
+uses-permission#android.permission.INTERNET
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1221:5-67
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-67
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1221:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1222:5-75
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-75
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1222:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1223:5-79
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-79
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1223:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1224:5-76
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1224:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1225:5-76
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-76
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1225:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1226:5-68
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-68
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1226:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1227:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1227:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1228:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1228:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1229:5-68
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-68
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1229:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1231:5-68
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1231:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1232:5-74
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1232:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1234:5-79
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-79
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1234:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1235:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-81
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1235:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1237:5-78
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1237:22-75
+uses-permission#android.permission.NETWORK_PROVIDER
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1238:5-75
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1238:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1245:5-73
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-73
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1245:22-70
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1247:5-82
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1247:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1248:5-88
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1248:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1249:5-75
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1249:22-72
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1251:5-76
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1251:22-73
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1259:5-85
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1259:22-82
+uses-permission#android.permission.CAMERA
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1263:5-65
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1263:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1265:5-71
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-71
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1265:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1267:5-66
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-66
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1267:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1272:5-80
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-80
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1272:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1279:5-100
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1279:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1280:5-84
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1280:22-65
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1286:5-70
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1286:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1287:5-67
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1287:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1288:5-67
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1288:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1289:5-68
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1289:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1294:5-69
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1294:22-66
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1297:5-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1297:22-76
+uses-permission#org.simalliance.openmobileapi.SMARTCARD
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1298:5-79
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1298:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1300:5-72
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1300:22-69
+uses-permission#android.permission.MOUNT_FORMAT_FILESYSTEMS
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1303:5-83
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1303:22-80
+uses-permission#androd.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1304:5-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1304:22-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1305:5-80
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-80
+MERGED from [:RongIMKit] E:\Projects\SchoolPass\SchoolPass\rongIMKit\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml:1305:22-77
+uses-sdk
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:20:5-43
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.1.3.aar\831b643dad6f177694aedbe75bb8cfcf\AndroidManifest.xml:6:5-9:55
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.1.3.aar\831b643dad6f177694aedbe75bb8cfcf\AndroidManifest.xml:6:5-9:55
+MERGED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lovedise:permissiongen:0.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissiongen-0.0.6.aar\2adbe5dcc46c384fba36b573b7f38f1e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3e45ca53f8e9a15ca2ca8a6e866873cb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\a8cfdccc4e228c9dbbf252ed96033e74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\a8cfdccc4e228c9dbbf252ed96033e74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.hotchemi:permissionsdispatcher:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.1.3.aar\831b643dad6f177694aedbe75bb8cfcf\AndroidManifest.xml:9:9-52
+	android:targetSdkVersion
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\SchoolPass\SchoolPass\schoolPass\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d11ba21dd00386ce3afb69cb5ef482e0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\71c31ec3d809829aea501d282d1579bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\75952b776d97611b100d7bb1e461b3f1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b7c8ac0dfb3ce9323d13e7e6006873dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\22f1de33406a921c6bf454c331c5c9ce\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1130a7bf4e7d3b0ea7cba3b8efc91af\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\60dd23ad330cb689cfebc3ce22bb7e4c\AndroidManifest.xml:26:13-58

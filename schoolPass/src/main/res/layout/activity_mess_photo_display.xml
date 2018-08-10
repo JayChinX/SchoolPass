@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_56"
+        android:layout_gravity="top"
+        android:background="@color/main_color">
+        <!-- 返回按钮 -->
+        <LinearLayout
+            android:id="@+id/liner_titlebar_back_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+                android:background="@drawable/navigationbar_back_button" />
+        </LinearLayout>
+
+        <!-- 标题栏标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/liner_titlebar_back_image"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="图片"/>
+
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/photofragment"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="io.rong.imkit.tools.PhotoFragment" />
+
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/space_20"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_attdence_deatil_list_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/col_account_bg"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/space_20"
+        android:paddingRight="@dimen/space_20"
+        android:visibility="gone">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notice_list_shape"
+                android:orientation="vertical" >
+
+                <View 
+                    android:background="@color/col_account_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/tv_attdence_detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/space_17"
+                    android:paddingTop="@dimen/space_17"
+                    android:textColor="#49C433"
+                    android:textSize="@dimen/sp_20" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.3dp"
+                    android:background="#CCCCCC" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="发布人"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="出勤"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="请假"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="迟到"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="早退"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/space_10"
+                        android:text="缺勤"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_13" />
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#CCCCCC"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0.1dp"
+                    android:paddingRight="0.1dp" >
+
+                    <com.yuanding.schoolpass.view.MyListView
+                        android:id="@+id/lv_attdence_detail_mylist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@color/col_account_bg"
+                        android:divider="@color/col_account_bg"
+                        android:dividerHeight="0px"
+                        android:fadingEdge="none"
+                        android:footerDividersEnabled="false"
+                        android:headerDividersEnabled="false"
+                        android:listSelector="#FFFFFF"
+                        android:overScrollMode="never"
+                        android:paddingBottom="0dp"
+                        android:scrollbars="vertical"
+                        android:scrollingCache="false" />
+                </LinearLayout>
+                  <View 
+                    android:background="@color/col_account_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/side_attdence_detail_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/side_attdence_deatil_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="visible" />
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/side_attdence_deatil_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_0"
+            android:singleLine="true"
+            android:text="通知"
+            android:textColor="@color/black_code"
+            android:textSize="@dimen/sp_15" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:layout_below="@+id/title"
+            android:layout_marginTop="@dimen/space_3" >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/space_35"
+                android:layout_height="@dimen/space_35"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/space_5"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/tab_indicator_text_unselected"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/space_56"
+	        android:layout_gravity="top"
+	        android:background="@color/main_color">
+	
+	        <!-- 返回按钮 -->
+	        <LinearLayout
+	            android:id="@+id/liner_titlebar_back_tab"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_centerVertical="true"
+	            android:orientation="horizontal" 
+	            android:visibility="gone">
+	            <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="19dp"
+	                android:layout_marginRight="10dp"
+	                android:background="@drawable/navigationbar_back_button" />
+	        </LinearLayout>
+	
+	        <TextView
+	            android:id="@+id/tv_titlebar_title_center_tab"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_centerInParent="true"
+	            android:textColor="@color/white"
+	            android:textSize="20sp"
+	            android:visibility="gone"/>
+	                
+	        <!-- 标题栏标题 -->
+	        <TextView
+	            android:id="@+id/tv_titlebar_title_tab"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="5dp"
+	            android:layout_toRightOf="@id/liner_titlebar_back_tab"
+	            android:textColor="@color/white"
+	            android:textSize="20sp"
+	            android:visibility="gone"/>
+	        
+	        <!-- 最右 -->
+	        <LinearLayout
+	            android:id="@+id/liner_titlebar_zui_right_tab"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:orientation="horizontal" 
+	            android:gravity="center"
+	             android:visibility="gone">
+	            <ImageView
+	                android:id="@+id/iv_zui_right_tab"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:scaleType="fitXY"
+	                android:layout_marginLeft="19dp"
+	                android:layout_marginRight="19dp"
+	                 />
+	        </LinearLayout>
+	        
+	        <!-- 偏右 -->
+	        <LinearLayout
+	            android:id="@+id/liner_titlebar_pian_right_tab"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_centerVertical="true"
+	            android:orientation="horizontal"
+	            android:layout_toLeftOf="@+id/liner_titlebar_zui_right_tab" 
+	            android:visibility="gone"
+	            android:gravity="center">
+	            <ImageView
+	                android:id="@+id/iv_pian_right_tab"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:scaleType="fitXY"
+	                android:layout_marginLeft="15dp"
+	                android:layout_marginRight="10dp"/>
+	        </LinearLayout>
+	        
+        <!-- 提交或者是确认、全选 -->
+        <Button
+            android:id="@+id/tv_title_tab_zuiyou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_26"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/space_18"
+            android:background="@drawable/navigationbar_textbtn"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/main_color"
+            android:visibility="gone" />
+	    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/title_line" />
+
+    <!-- app:footerColor="@color/tab_indicator_text_selected" -->
+    <com.yuanding.schoolpass.view.frament.TitleIndicator
+        android:id="@+id/pagerindicator"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        app:footerColor="@color/main_color"
+        app:footerLineHeight="0dp"
+        app:footerTriangleHeight="3dp"
+        app:textColor="@color/tab_indicator_text"
+        app:textSizeNormal="@dimen/common_text_size_middle_2"
+        app:textSizeSelected="@dimen/common_text_size_middle_2" />
+<View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/title_line" />
+    <!-- Don't set background for ViewPager. It doesn't work because of page margin -->
+
+    <com.yuanding.schoolpass.view.frament.ViewPagerCompat
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:duplicateParentState="true" />
+
+</LinearLayout>

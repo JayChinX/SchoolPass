@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":20170501,"versionName":"2.5.2","enabled":true,"outputFile":"SchoolPass-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.yuanding.schoolpass","split":"","minSdkVersion":"17"}}]

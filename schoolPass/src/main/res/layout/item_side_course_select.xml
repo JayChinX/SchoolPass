@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rala_course_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:orientation="vertical"
+     >
+
+    <ImageView
+        android:id="@+id/iv_course_bg_thumb"
+        android:scaleType="centerInside"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/iv_course_bg_tag_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_data_select"
+        android:visibility="gone" />
+
+    <ProgressBar
+       android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/pb"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:progressDrawable="@drawable/course_progress_bar_style"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_group_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="13sp" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_56"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:background="@color/main_color">
+
+        <!-- 返回按钮 -->
+        <LinearLayout
+            android:id="@+id/liner_titlebar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/navigationbar_back_button" />
+        </LinearLayout>
+
+        <!-- 标题栏标题 -->
+        <TextView
+            android:id="@+id/tv_titlebar_title"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <!-- 偏右 -->
+        <LinearLayout
+            android:id="@+id/liner_titlebar_pian_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/iv_pian_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <!-- 最右 -->
+        <LinearLayout
+            android:id="@+id/liner_titlebar_zui_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/iv_zui_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                />
+        </LinearLayout>
+
+        <!-- 提交或者是确认、全选 -->
+        <Button
+            android:id="@+id/tv_title_zuiyou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_26"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/space_18"
+            android:background="@drawable/navigationbar_textbtn"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/main_color"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:id="@+id/base_content_base"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

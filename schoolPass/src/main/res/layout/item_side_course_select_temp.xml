@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_150" >
+
+        <ImageView
+            android:id="@+id/iv_course_bg_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_course_01"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/iv_course_bg_tag_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_data_select"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

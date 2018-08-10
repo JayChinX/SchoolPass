@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_notice_detail_whole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+
+            <!-- 底部之外的 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_message_detail_title_sys"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="18dp"
+                        android:gravity="left"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.2dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="13dp"
+                        android:background="#CCCCCC" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="18dp"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_message_detail_notice_time_sys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="#999999"
+                            android:textSize="@dimen/space_13" />
+
+                        <!-- <TextView
+                            android:id="@+id/tv_message_detail_notice_from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/space_5"
+                            android:layout_toRightOf="@+id/tv_message_detail_notice_time_sys"
+                            android:textColor="@color/GREENlIGHT"
+                            android:textSize="@dimen/space_13" /> -->
+						<TextView
+                            android:id="@+id/tv_message_detail_notice_from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_alignParentRight="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/GREENlIGHT"
+                            android:textSize="@dimen/space_13" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="18dp"
+                        android:background="#CCCCCC" />
+                    <WebView
+                        android:id="@+id/webview_notice_detail_sys"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:scrollbars="none" />
+
+                    <TextView
+                        android:id="@+id/tv_notice_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_18"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:clickable="true"
+                        android:scrollbars="none"
+                        android:textColor="@color/black_dan"
+                        android:textSize="@dimen/sp_17"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/liner_notice_detail_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_accept_the_delegate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:background="@drawable/login_button_bg"
+                    android:gravity="center"
+                    android:text="@string/str_attdence_accept"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_20"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/mess_notice_detail_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/mess_notice_detail_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="visible" />
+
+</LinearLayout>

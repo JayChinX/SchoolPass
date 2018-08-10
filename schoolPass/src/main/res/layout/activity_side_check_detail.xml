@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_56"
+        android:layout_gravity="top"
+        android:background="@color/main_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 返回按钮 -->
+
+        <LinearLayout
+            android:id="@+id/liner_titlebar_attence"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/navigationbar_back_button" />
+        </LinearLayout>
+
+        <!-- 标题栏标题 -->
+
+        <com.yuanding.schoolpass.view.AlwaysMarqueeTextView
+            android:id="@+id/tv_titlebar_title_attence"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!-- 最右 -->
+
+        <LinearLayout
+            android:id="@+id/liner_titlebar_zui_right_attence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_zui_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/navigationbar_refresh"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="56dp" >
+
+        <ScrollView
+            android:id="@+id/check_sll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+            <LinearLayout
+                android:id="@+id/liner_attence_detail_whole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" 
+                 android:paddingBottom="100dp" 
+                >
+
+                <LinearLayout
+                    android:id="@+id/check_liner_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_account_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:text="现场照片"
+                        android:textColor="@color/black_code" />
+
+                    <com.yuanding.schoolpass.view.MyGridView
+                        android:id="@+id/side_check_gridview_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="18dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="8dp"
+                        android:listSelector="@color/transparent"
+                        android:numColumns="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check_liner_lack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_lack"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_account_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:text="缺勤人员"
+                        android:textColor="@color/black_code" />
+
+                    <com.yuanding.schoolpass.view.MyGridView
+                        android:id="@+id/side_check_gridview_lack"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:listSelector="@color/transparent"
+                        android:numColumns="4"
+                        android:verticalSpacing="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check_liner_late"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_late"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_account_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:text="迟到人员"
+                        android:textColor="@color/black_code" />
+
+                    <com.yuanding.schoolpass.view.MyGridView
+                        android:id="@+id/side_check_gridview_late"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:listSelector="@color/transparent"
+                        android:numColumns="4"
+                        android:verticalSpacing="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check_liner_leave_early"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_early"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_account_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:text="早退人员"
+                        android:textColor="@color/black_code" />
+
+                    <com.yuanding.schoolpass.view.MyGridView
+                        android:id="@+id/side_check_gridview_leave_early"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:listSelector="@color/transparent"
+                        android:numColumns="4"
+                        android:verticalSpacing="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check_liner_leave"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_leave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_account_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:text="请假人员"
+                        android:textColor="@color/black_code" />
+
+                    <com.yuanding.schoolpass.view.MyGridView
+                        android:id="@+id/side_check_gridview_leave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:listSelector="@color/transparent"
+                        android:numColumns="4"
+                        android:verticalSpacing="5dp" />
+                </LinearLayout>
+
+                <com.yuanding.schoolpass.view.MyListView
+                    android:id="@+id/side_check_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="#ffffff"
+                    android:dividerHeight="0.0dp"
+                    android:fadingEdge="none"
+                    android:listSelector="@color/transparent"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/rela_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white" 
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_list_pub" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_position_check"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_login_normal"
+                    android:padding="20dp"
+                    android:text="位置考勤"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/btn_image_check"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/side_image_btn_check" />
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 加载中 -->
+
+        <include
+            android:id="@+id/side_attence_detail_loading"
+            layout="@layout/pub_read_loading" />
+
+        <!-- 加载失败 -->
+
+        <include
+            android:id="@+id/side_attence_detail_load_error"
+            layout="@layout/pub_read_faile"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+# Referenced at E:\Projects\SchoolPass\SchoolPass\schoolPass\build\intermediates\manifests\full\debug\AndroidManifest.xml:100
+-keep class com.yuanding.schoolpass.A_0_App { <init>(...); }
+
+# Referenced at E:\Projects\SchoolPass\SchoolPass\schoolPass\build\intermediates\manifests\full\debug\AndroidManifest.xml:1142
+-keep class io.rong.push.PushReceiver { <init>(...); }
+
+# Referenced at E:\Projects\SchoolPass\SchoolPass\schoolPass\build\intermediates\manifests\full\debug\AndroidManifest.xml:1082
+-keep class io.rong.push.PushService { <init>(...); }
+

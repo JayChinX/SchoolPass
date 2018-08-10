@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "订单详情："
+            />
+        
+        <TextView 
+            android:id="@+id/ding_dan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "这里是订单详情"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/pay_choose" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+    </ListView>
+
+</LinearLayout>

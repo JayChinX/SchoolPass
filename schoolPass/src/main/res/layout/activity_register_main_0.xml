@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none" > 
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/bg_main_color"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/space_24"
+	        android:layout_marginBottom="@dimen/space_20"
+	        android:layout_marginLeft="@dimen/space_37"
+	        android:text="@string/str_login_title_text"
+	        android:textColor="#666666"
+	        android:visibility="gone"
+	        android:textSize="@dimen/sp_13" />
+	
+	    <LinearLayout
+	        android:id="@+id/liner_register_no_0"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/space_31"
+	        android:layout_marginRight="@dimen/space_31"
+	        android:layout_marginTop="@dimen/space_33"
+	        android:background="@drawable/login_input_normal_bg"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+		    <EditText 
+		        android:id="@+id/et_reg_mobile_no_0"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:background="@null"
+			    android:layout_marginLeft="@dimen/space_4"
+			    android:textSize="@dimen/sp_17"
+			    android:textColor="#333333"
+			    android:hint="输入手机号"
+			    android:textColorHint="#999999"
+			    android:inputType="number"
+			    android:paddingTop="@dimen/space_5"
+			    android:paddingBottom="@dimen/space_5"
+			    android:singleLine="true"/>
+	    </LinearLayout>
+	    <Button 
+	        android:id="@+id/btn_next_step_0"
+	        android:layout_marginTop="@dimen/space_10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/login_button_bg"
+	        android:layout_marginLeft="@dimen/space_20"
+	        android:layout_marginRight="@dimen/space_20" 
+	        android:text="下一步"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/sp_20"/>
+	     <LinearLayout 
+	        android:id="@+id/liner_user_ageree_area"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="@dimen/space_17">
+	        <ImageView 
+	            android:id="@+id/iv_agree_ment"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/register_box_selected"
+	            />
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/space_3"
+	            android:textSize="@dimen/sp_13"
+	            android:textColor="#333333"
+	            android:text="阅读并接受"/>
+	       <TextView 
+	            android:id="@+id/user_agreement"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="@dimen/sp_13"
+	            android:textColor="@color/repair_blue"/>
+	    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

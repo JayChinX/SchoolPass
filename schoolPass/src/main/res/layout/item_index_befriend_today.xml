@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/tv_today_attence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8"
+        android:paddingLeft="@dimen/space_18"
+        android:text="待处理任务"
+        android:paddingTop="@dimen/space_10"
+        android:textColor="@color/black_code" />
+
+    <ListView
+        android:id="@+id/lv_message_idnex_attence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:cacheColorHint="@color/white"
+        android:divider="#CCCCCC"
+        android:dividerHeight="0.0dp"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+    <TextView
+        android:id="@+id/tv_early_attence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8"
+        android:paddingTop="@dimen/space_10"
+        android:paddingLeft="@dimen/space_18"
+        android:text="历史任务"
+        android:textColor="@color/black_code" />
+
+</LinearLayout>

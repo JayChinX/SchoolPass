@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ListView 
+       android:id="@+id/lv_meeting_no_start"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="10dp"
+       android:cacheColorHint="@color/transparent"
+       android:fadingEdge="none"
+       android:overScrollMode="ifContentScrolls"
+	   android:footerDividersEnabled="false"
+	   android:headerDividersEnabled="false"
+	   android:listSelector="@color/transparent"
+       android:background="@color/white"
+       android:dividerHeight="20dp"
+       android:divider="#F8F8F8"
+       android:scrollbars="none"/>   
+    <!-- 加载失败 -->
+    <include
+        android:id="@+id/side_two_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 网络错误 -->
+    <include
+        android:id="@+id/side_two_network_error"
+        layout="@layout/pub_network_error"
+        android:visibility="gone" />
+    
+    <!-- 网络错误 -->
+    <include
+        android:id="@+id/side_two_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+</LinearLayout>

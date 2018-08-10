@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_account_invite_record_whole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tx_allinvitenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/col_account_bg"
+            android:paddingBottom="@dimen/common_text_size_small_2"
+            android:paddingLeft="20dp"
+            android:paddingTop="@dimen/common_text_size_small_2"
+            android:text="总计"
+            android:textColor="@color/main_tool_text_nor"
+            android:textSize="@dimen/sp_12" />
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/demo_swiperefreshlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/lv_inviterecord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/col_account_bg"
+                android:cacheColorHint="@color/col_account_bg"
+                android:divider="@color/col_account_bg"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:listSelector="@color/transparent"
+                android:overScrollMode="never"
+                android:paddingBottom="0dp"
+                android:scrollingCache="false" >
+            </com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView>
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/acount_invite_record_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/acount_invite_record_loading"
+        layout="@layout/pub_read_loading" />
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/acount_invite_record_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:gravity="center"
+              android:orientation="horizontal"
+             >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剩余"
+        android:textColor="@color/black_code"
+        android:textSize="@dimen/sp_14"
+        />
+    <TextView
+        android:id="@+id/tv_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="00"
+        android:textColor="#47c433"
+        android:textSize="@dimen/sp_14"
+        />
+
+    <TextView
+         android:id="@+id/tv_dayss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天"
+       android:textColor="@color/black_code"
+       android:textSize="@dimen/sp_14"
+     />
+    <TextView
+        android:id="@+id/tv_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="00"
+        android:textColor="#47c433"
+        android:textSize="@dimen/sp_14"
+        />
+
+    <TextView
+        android:id="@+id/tv_hourss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小时"
+       android:textColor="@color/black_code"
+       android:textSize="@dimen/sp_14"
+     />
+
+    <TextView
+        android:id="@+id/tv_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="00"
+         android:textColor="#47c433"
+        android:textSize="@dimen/sp_14"
+        />
+
+    <TextView
+         android:id="@+id/tv_minutess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分"
+         android:textColor="@color/black_code"
+       android:textSize="@dimen/sp_14"
+       />
+
+    <TextView
+        android:id="@+id/tv_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textColor="#47c433"
+        android:textSize="@dimen/sp_14"
+         android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秒"
+         android:textColor="@color/black_code"
+       android:textSize="@dimen/sp_14"
+       android:visibility="gone"
+       />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_56"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/space_20"
+    android:paddingRight="@dimen/space_20" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_55"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_balance_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_code"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tv_balance_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_no_focus_login"
+            android:textSize="@dimen/sp_11" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_balance_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/attence_later"
+        android:textSize="@dimen/sp_15" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/line_list_pub" />
+
+</RelativeLayout>

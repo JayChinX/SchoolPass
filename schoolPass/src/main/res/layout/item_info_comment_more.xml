@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rela_itme_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/space_5"
+    android:paddingLeft="@dimen/space_18"
+    android:paddingRight="@dimen/space_18"
+    android:visibility="visible" >
+
+    <com.yuanding.schoolpass.view.CircleImageView
+        android:id="@+id/iv_comment_user_por"
+        android:layout_width="@dimen/space_40"
+        android:layout_height="@dimen/space_40"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_5"
+        android:background="@drawable/i_default_por_120" />
+
+    <RelativeLayout
+        android:id="@+id/rela_itme_info_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_5"
+        android:layout_toRightOf="@+id/iv_comment_user_por"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_comment_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/space_40"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_13" />
+
+        <TextView
+            android:id="@+id/tv_comment_user_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_comment_user_name"
+            android:background="@drawable/info_content_bg"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_17" />
+
+        <LinearLayout
+            android:id="@+id/liner_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_comment_user_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_comment_user_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_comment_user_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liner_temp"
+            android:layout_marginTop="@dimen/space_10"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/liner_comment_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner_detail_info_count"
+            android:layout_width="@dimen/space_50"
+            android:layout_height="@dimen/space_50"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_detaili_info_surname_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_info_click_like" />
+
+            <TextView
+                android:id="@+id/tv_detaili_info_surname_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/gray1"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_30"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/space_5"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/tv_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:textColor="@color/info_green_name"
+            android:textSize="@dimen/sp_13"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

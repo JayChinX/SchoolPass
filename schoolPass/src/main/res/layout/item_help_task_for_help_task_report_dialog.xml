@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_acy_list_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="举报"
+            android:textColor="@color/start_title_col"
+            android:textSize="@dimen/sp_20" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/title_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:text="该任务涉及哪类违规信息？"
+            android:textColor="@color/start_title_col"
+            android:textSize="@dimen/sp_16" />
+
+        <GridView
+            android:id="@+id/for_help_report"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:gravity="center_vertical"
+            android:numColumns="3"
+            android:padding="7dp" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/for_help_report_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="19dp"
+                android:text="取消"
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:background="@drawable/general_dialog_right_btn_bg" />
+
+            <TextView
+                android:id="@+id/for_help_report_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="19dp"
+                android:text="提交"
+                android:textColor="@color/info_green_name"
+                android:textSize="13sp"
+                android:background="@drawable/general_dialog_right_btn_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

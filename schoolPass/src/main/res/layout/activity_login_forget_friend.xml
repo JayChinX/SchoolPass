@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_select_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="always"
+        android:scrollbars="none"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/col_account_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_30"
+                android:layout_marginTop="@dimen/space_30"
+                android:gravity="center"
+                android:text="选出两位你的好友"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/space_20" />
+
+            <com.yuanding.schoolpass.view.MyGridView
+                android:id="@+id/gv_forget_friend"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/space_35"
+                android:layout_marginRight="@dimen/space_30"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:gravity="center"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:horizontalSpacing="@dimen/space_52"
+                android:verticalSpacing="@dimen/space_25" >
+            </com.yuanding.schoolpass.view.MyGridView>
+
+            <Button
+                android:id="@+id/btn_next_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@drawable/login_button_bg"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+    </ScrollView>
+
+     <!-- 加载失败 -->
+    <include
+        android:id="@+id/acy_forget_friend_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 没有数据 -->
+    <include
+        android:id="@+id/acy_forget_friend_loading"
+        layout="@layout/pub_read_loading" />
+    
+    <!-- 加载失败 -->
+    <include
+        android:id="@+id/acy_forget_friend_error_count"
+        layout="@layout/activity_login_forget_max_error"
+        android:visibility="gone" />
+</LinearLayout>

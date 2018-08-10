@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/space_23"
+        android:paddingTop="@dimen/space_19" >
+
+        <TextView
+            android:id="@+id/tv_teacher_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black_code"
+            android:textSize="@dimen/sp_17" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_13"
+            android:layout_marginTop="@dimen/space_14"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_teacher_tem001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="教授课程"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_teach_course_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_33"
+                android:layout_toRightOf="@id/tv_teacher_tem001"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/title_no_focus_login"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/space_19" >
+
+            <TextView
+                android:id="@+id/tv_teacher_tem001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="上课地点"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_teach_course_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_33"
+                android:layout_toRightOf="@+id/tv_teacher_tem001"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/title_no_focus_login"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="#CCCCCC" />
+    </LinearLayout>
+
+</LinearLayout>

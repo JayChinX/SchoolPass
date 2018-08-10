@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuanding.schoolpass"
+    android:versionCode="20170501"
+    android:versionName="2.5.2" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26" />
+    <!-- 个推SDK权限配置开始 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 支持iBeancon 需要蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 支持个推3.0 电子围栏功能 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 浮动通知权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.NETWORK_PROVIDER" />
+
+    <!-- 个推SDK权限配置结束 -->
+
+
+    <!-- 百度云  == Push service 运行需要的权限 -->
+    <!-- Push service 运行需要的权限 -->
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 富媒体需要声明的权限 -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    >
+    <!-- **************************百度云Push 集成结束  ************************** -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 获取机型信息权限 -->
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <!-- 查看 Wi-Fi 状态 -->
+    <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 控制振动器 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 防止设备休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- **************************融云 集成结束  ************************** -->
+    <!-- **************************百度定位 集成开始  ************************** -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- **************************百度定位 集成结束  ************************** -->
+
+
+    <!-- 读写短信的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <!-- 图片缓存 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 往SDCard写入数据权限 -->
+
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 拨打电话权限 -->
+
+
+    <!-- **************************支付  ************************** -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- **************************SD卡权限************************** -->
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="androd.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="14" -->
+    <!-- android:targetSdkVersion="24" /> -->
+    <application
+        android:name="com.yuanding.schoolpass.A_0_App"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:taskAffinity="com.yuanding.schoolpass.task" >
+
+        <!-- 启动页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_1_Start_Acy"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.yuanding.schoolpass.service.BackService"
+            android:enabled="true"
+            android:exported="false"
+            android:persistent="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="hehhe" />
+            </intent-filter>
+        </service>
+
+        <!-- 简介页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_2_Intro_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 主页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_Main_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 消息页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_Main_My_Message_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" >
+            <intent-filter>
+                <data
+                    android:host="com.yuanding.schoolpass"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+
+                <action android:name="hehhe" />
+            </intent-filter>
+        </activity>
+        <!-- 身边页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_Main_My_Side_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 我的页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_Main_My_Account_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 登录页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_0_Login_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 忘记密码页面1 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_1_1_Forget_Main_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 忘记密码页面_选择认识的好友 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_1_2_Forget_Friend_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 忘记密码页面2 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_1_3_Forget_SetPassWord_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 注册页面0 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_2_Register_Main_0_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 注册页面1 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_2_Register_Main_1_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 注册页面2 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_2_Register_Main_2_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 实名认证介绍 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Certivication_Temp_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 个人帮帮中心 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_0"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 个人帮帮任务处理 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_Task"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 个人帮帮常见问题 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_CommonProblem"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 完善资料 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_3_Complete_marer_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 修改资料详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_3_Complete_Marer_Modify_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 修改资料详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_3_Complete_Marer_Nodify_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 修改资料班级 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_3_Complete_Selcet_Class"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 修改资料学校 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_3_Complete_Selcet_School"
+            android:configChanges="orientation|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 找回密码成功 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_4_Forget_pwd_Succ_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 修改手机号 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_5_Change_No_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 修改手机号成功 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_3_6_Change_No_Success_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Modify_Pwd_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 校务通讯录 -->
+        <activity
+            android:name="com.yuanding.schoolpass.A_Main_My_Contact_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 邀请 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Invite_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 邀请记录 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Invite_InviteRecord"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 系统通知 主页 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_SystemNotice_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 设置 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_My_Set_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 推送消息设置 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Push_Set_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 消息免打扰设置 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Push_Trouble_Set_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 加载web页公用页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_MySet_About_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 加载web页公用页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_MySet_About_Call_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 意见反馈 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_FeedBack_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 黑名单 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_BlackList_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 加载web页 -->
+        <activity
+            android:name="com.yuanding.schoolpass.Pub_WebView_Load_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 加载优惠券 -->
+        <activity
+            android:name="com.yuanding.schoolpass.Pub_WebView_Load_Coupon"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 加载BANGBANG -->
+        <activity
+            android:name="com.yuanding.schoolpass.Pub_WebView_Load_Befriend"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 加载web广告页 -->
+        <activity
+            android:name="com.yuanding.schoolpass.Pub_WebView_Banner_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 加载web页公用页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.Pub_WebView_Load_Other_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的活动列表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Acy_list_Scy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 身边中的课程表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的课程表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Add"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的课程表搜索官方课程 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Search"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的课程表搜索任课老师 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Search_Teacher"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的课程表详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的课程表选择背景图片 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Course_Select_Image_temp"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 身边中的资讯列表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Info_0_Main_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 身边中的资讯详情页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Info_1_Detail_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 身边中的空白页 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Pub_Side_NoDo_Action"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 讲座列表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Lectures_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 讲座详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Lectures_Detail_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- 身边中的失物招领 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Lost_Found_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的失物招领 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的失物招领详情转发 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Detail_Forward"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的添加失物招领 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Add_Found"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的编辑失物招领 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Edit_Found"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的添加失物选择相册 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Add_Images"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的添加失物选择相册相关 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Add_ImageGridActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的添加失物选择相册相关 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Add_BitmapCache"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的失物招领搜索 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_Search"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的失物招领图片查看 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_BigImage"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 失物招领空白页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Lost_Found_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的成绩 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Achievement_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+        <!-- 身边中的报修 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Repair_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的报修 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Repair_My"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的报修详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Repair_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的添加报修 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Repair_Add"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 身边中的考勤主界面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Attdence_Main_0_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 身边中的考勤 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Attence_Main_A0"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+        <!-- 身边中的考勤 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Attence_Main_A1_New_Attence"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的考勤 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Attence_Main_A2_Add_Contact"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的考勤详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Attence_Main_A3_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的考勤统计界面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Attdence_Main_1_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的—帮帮主页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.bangbang.B_Side_Befriend_A0_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的—帮帮账户余额页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_Balance"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 余额提现申请 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_2_Bill_Present"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 提现绑定 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Account_Befriend_Center_Main_1_PresentBind"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 身边中的—帮帮发任务 -->
+        <activity
+            android:name="com.yuanding.schoolpass.bangbang.B_Side_Befriend_A1_Take_Or_Send"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx41dbca0a55ba6ea7" />
+            </intent-filter>
+        </activity>
+
+        <!-- 身边中的—帮帮教、修 -->
+        <activity
+            android:name="com.yuanding.schoolpass.bangbang.B_Side_Befriend_A1_Teach_Repair_Other"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx41dbca0a55ba6ea7" />
+            </intent-filter>
+        </activity>
+
+        <!-- 身边中的—帮帮中心—待领取页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.bangbang.B_Side_Befriend_C1_Task_Status_Details"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+        <!-- 身边中的—帮帮中心—发布任务—支付 -->
+
+
+        <!-- 微信支付 -->
+        <activity
+            android:name="com.yuanding.schoolpass.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.yuanding.schoolpass.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- *****************************支付集成   结束  ************************** -->
+        <!-- 官方通知详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_Detail_Official_News"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- 全局搜索 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_All_Search"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 全局搜索更多人 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_All_Search_MoreUser"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 全局搜索更多信息 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_All_Search_MoreMess"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 校党委通知或会议 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_List"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 校、院、班级通知列表-》待确认列表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_List_WaitSure"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 官方消息通知 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Official_List"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 校务助手主页 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_School_Assistant_Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 校务助手详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_School_Assistant_0_List_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 校务助手列表 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_School_Assistant_1_Detai_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 校外搜索 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Contact_Out_School_Click_Item_List"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 个人资料 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Persion_Info"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 群资料 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Group_Info"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in" />
+
+        <!-- 通知详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_Detail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 系统通知不可读 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_Detail_Sys"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 文本短信 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Notice_Detail_MessText"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar.Animal.animal_acy_center_in"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 活动详情 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Acy_list_Detail_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 校外搜索 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Contact_Out_School_Search_Item"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 单聊  定位 -->
+        <activity
+            android:name="com.yuanding.schoolpass.Conversation_Location_Acy"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 单聊  图片放大 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Chat_Photo_Display"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 单聊  图片放大 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Side_Found_BigImage2"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar" />
+
+        <!-- 单聊 、群聊 -->
+        <activity
+            android:name="com.yuanding.schoolpass.ConversationActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.yuanding.schoolpass"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.rong.imkit.activity.PictureSelectorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.activity.PicturePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.tools.RongWebviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- 转发选择页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Forward_Select"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 转发选择页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Forward_Select_ClassMate"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 转发选择页面 -->
+        <activity
+            android:name="com.yuanding.schoolpass.B_Mess_Forward_Select_Teacher"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.yuanding.schoolpass.view.rongyun.RongSubActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <data
+                    android:host="com.yuanding.schoolpass"
+                    android:path="/subconversationlist"
+                    android:scheme="rong" />
+
+                <action android:name="hehhe" />
+            </intent-filter>
+        </activity>
+
+        <!-- *****************************百度云Push 集成开始  ************************** -->
+        <!-- push富媒体，使用富媒体推送必须声明 -->
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaViewActivity" />
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaListActivity"
+            android:launchMode="singleTask" />
+        <!-- push富媒体结束 -->
+
+
+        <!-- push应用定义消息receiver声明 -->
+        <receiver android:name="com.yuanding.schoolpass.service.BaiduPushMessageReceiver" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- push必须的receviver和service声明 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+
+        <!-- 适配Android N系统必需的ContentProvider声明，写权限包含应用包名 -->
+        <provider
+            android:name="com.baidu.android.pushservice.PushInfoProvider"
+            android:authorities="com.yuanding.schoolpass.bdpush"
+            android:exported="true"
+            android:protectionLevel="signature"
+            android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.yuanding.schoolpass" />
+
+        <!-- 在百度开发者中心查询应用的API Key -->
+        <!-- 线下 -->
+        <!--
+            <meta-data
+            android:name="api_key"
+            android:value="BHVIFdlVGNkuZAhLeW6r2PAt" />
+        -->
+        <!-- 线上 -->
+        <meta-data
+            android:name="api_key"
+            android:value="XEhpx7KfbiGGeot9WEWug2tY" />
+
+        <!-- *****************************百度云  集成结束************************** -->
+        <!-- *****************************融云集成   开始  ************************** -->
+        <service
+            android:name="io.rong.push.PushService"
+            android:exported="false"
+            android:process="io.rong.push" > <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="io.rong.push" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.yuanding.schoolpass.service.DemoNotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:exported="false"
+            android:process=":ipc" />
+        <service
+            android:name="io.rong.imlib.ReConnectService"
+            android:exported="false" />
+
+        <receiver
+            android:name="io.rong.imlib.ConnectChangeReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.rong.push.message" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:exported="false"
+            android:process=":ipc" />
+
+        <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="6tnym1brnatd7" />
+
+        <!-- 必选： SDK 核心功能 -->
+        <service
+            android:name="io.rong.push.core.PushRegistrationService"
+            android:exported="false" />
+        <!-- <service -->
+        <!-- android:name="io.rong.push.PushService" -->
+        <!-- android:exported="false" -->
+        <!-- android:process="io.rong.push"> -->
+        <!-- </service> -->
+
+        <service
+            android:name="io.rong.push.core.MessageHandleService"
+            android:exported="false" />
+
+        <receiver
+            android:name="io.rong.push.PushReceiver"
+            android:exported="false"
+            android:process="io.rong.push" >
+            <intent-filter>
+                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 必选： SDK 核心功能 -->
+
+
+        <!-- *****************************融云集成   结束  ************************** -->
+
+
+        <!-- *********************腾讯地图分享key***7JYBZ-4Y3W4-JMUU7-DJHQU-NOYH7-SRBBU********************* -->
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="FJOBZ-CAYRS-OWYO6-6V5UQ-5KBMH-GTFZI" />
+        <!-- *********************腾讯地图分享key***7JYBZ-4Y3W4-JMUU7-DJHQU-NOYH7-SRBBU********************* -->
+        <!-- *****************************百度地图/百度定位集成  开始  ************************** -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="dnvG6lSbw9RYqlMTPS6QjmnTlb7hWe0f" />
+        <!-- http://lbsyun.baidu.com/apiconsole/key -->
+        <!-- meta-data需要写在application中 -->
+        <!-- *****************************百度地图/百度定位集成  结束  ************************** -->
+
+
+        <!-- *****************************友盟分享 ************************** -->
+        <!-- <activity -->
+        <!-- android:name="com.yuanding.schoolpass.wxapi.WXEntryActivity" -->
+        <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+        <!-- android:exported="true" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" /> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="UMENG_APPKEY" -->
+        <!-- android:value="56711d95e0f55aeac90036a5"></meta-data> -->
+        <!-- *****************************友盟分享 ************************** -->
+        <!-- ****************************个推SDK配置开始************************************ -->
+        <!-- 个推SDK配置开始 -->
+        <!-- 配置的第三方参数属性 -->
+        <!-- 线下 -->
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="vNK9fLZ6GG91GtIAuFPlq9" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="Onls9N68bZ8WPP8ozGdGM9" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="QYKdyZmKqU549B6WWC8004" />
+        <!-- 线上 -->
+        <!-- <meta-data -->
+        <!-- android:name="PUSH_APPID" -->
+        <!-- android:value="M0kcCp0eML7zBWyQuUSKI2" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="PUSH_APPKEY" -->
+        <!-- android:value="eL4rl3u4L16LEub6RnvF5" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="PUSH_APPSECRET" -->
+        <!-- android:value="QceoHs9b7Z7CkiYxMzcT9A" /> -->
+        <!-- 配置第三方Receiver -->
+        <receiver
+            android:name="com.yuanding.schoolpass.service.PushDemoReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.vNK9fLZ6GG91GtIAuFPlq9" /> <!-- 线下 -->
+                <!-- <action android:name="com.igexin.sdk.action.M0kcCp0eML7zBWyQuUSKI2" />&lt;!&ndash; 线上 &ndash;&gt; -->
+            </intent-filter>
+        </receiver>
+
+        <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.igexin.sdk.PushServiceUser"
+            android:exported="true"
+            android:label="NotificationCenterUser" />
+
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <!-- 以下三项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice" />
+
+        <receiver android:name="com.igexin.download.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:authorities="downloads.com.yuanding.schoolpass"
+            android:exported="true"
+            android:process=":pushservice" />
+
+        <activity
+            android:name="com.igexin.sdk.GActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- **************************个推SDK配置结束******************* -->
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Market_360" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

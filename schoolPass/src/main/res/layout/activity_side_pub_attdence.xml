@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+     <!-- activity_side_pub_black.xml  activity_side_pub_attdence.xml 一个是文字图片    一个是文字按钮-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="@dimen/space_120"
+           android:gravity="center_horizontal"
+           android:layout_centerHorizontal="true">
+	         <ImageView 
+	            android:id="@+id/iv_blank_por_attdence"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:scaleType="fitXY"
+	            android:background="@drawable/ico_no_attendance"/>
+	        <TextView 
+	            android:id="@+id/tv_remind_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textColor="#999999"
+	            android:textSize="17sp"
+	            android:layout_gravity="center_horizontal"
+            	android:layout_marginTop="@dimen/space_22"/>
+       </LinearLayout>
+        <Button 
+            android:id="@+id/btn_add_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_login_normal"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

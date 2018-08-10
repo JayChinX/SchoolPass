@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:background="@drawable/notice_list_shape" >
+
+        <TextView
+            android:id="@+id/tv_wheel_week_title"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/start_title_col"
+            android:paddingTop="@dimen/space_16"
+            android:paddingBottom="@dimen/space_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="周数选择"/>
+
+        <View
+            android:layout_marginRight="@dimen/space_17"
+            android:layout_marginLeft="@dimen/space_17"
+            android:id="@+id/temp_001"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.7"
+            android:layout_below="@+id/tv_wheel_week_title"
+            android:background="@color/title_line" />
+
+        <LinearLayout
+            android:id="@+id/liner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temp_001"
+            android:layout_marginLeft="@dimen/space_17"
+            android:layout_marginRight="@dimen/space_17"
+            android:orientation="vertical" >
+            <com.yuanding.schoolpass.view.MyGridView
+                android:id="@+id/gv_week_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:fadingEdge="none"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/space_17"
+                android:verticalSpacing="@dimen/space_17" 
+                android:listSelector="@android:color/transparent"
+                android:numColumns="6"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"/>
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal"
+	            android:layout_marginTop="@dimen/space_17"
+			    android:layout_marginBottom="@dimen/space_11">
+				<Button
+	                android:id="@+id/btn_double_week"
+	                android:layout_width="0px"
+	                android:layout_weight="1"
+	                android:layout_height="@dimen/space_33"
+	                android:text="双周"
+	                android:textSize="@dimen/sp_14"/>
+	
+	            <Button
+	                android:id="@+id/btn_single_week"
+	                android:layout_width="0px"
+	                android:layout_weight="1"
+	                android:layout_height="@dimen/space_33"
+	                android:layout_marginLeft="@dimen/space_14"
+	                android:layout_marginRight="@dimen/space_14"
+	                android:text="单周"
+	                android:textSize="@dimen/sp_14"/>
+	            
+	           <Button
+	                android:id="@+id/btn_all_select"
+	                android:layout_width="0px"
+	                android:layout_weight="1"
+	                android:layout_height="@dimen/space_33"
+	                android:text="全选"
+	                android:textSize="@dimen/sp_14"/>
+			</LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_45"
+            android:layout_marginBottom="@dimen/space_18"
+            android:textColor="@color/black_code"
+            android:padding="@dimen/space_15"
+            android:textSize="@dimen/sp_13"
+            android:background="@color/transparent"
+            android:layout_below="@+id/liner"
+            android:gravity="center"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/bt_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_50"
+            android:layout_marginBottom="@dimen/space_18"
+            android:textColor="@color/main_color"
+            android:padding="@dimen/space_15"
+            android:textSize="@dimen/sp_13"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/liner"
+            android:gravity="center"
+            android:text="确定" />
+    </RelativeLayout>
+
+</LinearLayout>

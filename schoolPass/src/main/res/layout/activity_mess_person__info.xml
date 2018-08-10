@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_56"
+        android:background="@color/main_color"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/space_20"
+            android:paddingRight="@dimen/space_20"
+            android:src="@drawable/navigationbar_back_button" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/lienr_ifno_view_temp002"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/main_color"
+                android:gravity="center_horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/main_color"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/main_color"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/lienr_wanshan_message"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <ImageView
+                                    android:id="@+id/btn_back_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/space_20"
+                                    android:src="@drawable/navigationbar_back_button"
+                                    android:visibility="gone" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/my_account_head_bg" />
+
+                                <com.yuanding.schoolpass.view.CircleImageView
+                                    android:id="@+id/iv_persion_por_info"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_marginTop="@dimen/space_3"
+                                    android:src="@drawable/i_default_messge_por" />
+
+                                <LinearLayout
+                                    android:id="@+id/ll_myaccount_rezheng"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/space_8"
+                                    android:layout_marginTop="@dimen/space_45"
+                                    android:layout_toRightOf="@+id/iv_persion_por_info"
+                                    android:background="@drawable/account_renzheng_bg"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="@dimen/space_5"
+                                    android:paddingRight="@dimen/space_5"
+                                    android:paddingTop="@dimen/space_5" >
+
+                                    <ImageView
+                                        android:id="@+id/iv_renzheng"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/space_3"
+                                        android:layout_marginRight="@dimen/space_3" />
+
+                                    <TextView
+                                        android:id="@+id/tv_persion_info_ren"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/white" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_persion_info_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/space_10"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/tv_account_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/white"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <com.yuanding.schoolpass.view.CircleImageView
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="@dimen/space_28"
+                    android:textColor="#333333"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#666666"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <!-- 电话号码 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="14dp"
+                    android:paddingLeft="@dimen/space_13"
+                    android:paddingRight="@dimen/space_13"
+                    android:paddingTop="14dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="电话号码"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/sp_17" />
+
+                    <TextView
+                        android:id="@+id/tv_persion_info_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/sp_13" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.4dp"
+                    android:layout_marginLeft="@dimen/space_13"
+                    android:layout_marginRight="@dimen/space_13"
+                    android:background="@color/title_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <!-- 班级 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="14dp"
+                        android:paddingLeft="@dimen/space_13"
+                        android:paddingRight="@dimen/space_13"
+                        android:paddingTop="14dp" >
+
+                        <TextView
+                            android:id="@+id/tv_organ_title_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="所属班级"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/sp_17" />
+
+                        <TextView
+                            android:id="@+id/tv_persion_info_banji"
+                            android:layout_toRightOf="@+id/tv_organ_title_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:textColor="#999999"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="@dimen/space_2"
+                            />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view_fudaoyuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginLeft="@dimen/space_13"
+                        android:layout_marginRight="@dimen/space_13"
+                        android:background="@color/title_line"
+                        android:visibility="gone" />
+                    <!-- 辅导员 -->
+
+                    <RelativeLayout
+                        android:id="@+id/rel_fudaoyuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="14dp"
+                        android:paddingLeft="@dimen/space_13"
+                        android:paddingRight="@dimen/space_13"
+                        android:paddingTop="14dp"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/bb"
+                            android:text="辅导员"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/sp_17" />
+
+                        <TextView
+                            android:id="@+id/tv_persion_info_fudao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="#999999"
+                            android:textSize="13sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/col_account_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp" />
+
+                    <LinearLayout
+                        android:id="@+id/liner_la_hei"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:background="@color/white"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="14dp"
+                            android:paddingLeft="@dimen/space_13"
+                            android:paddingRight="@dimen/space_13"
+                            android:paddingTop="14dp" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/aa"
+                                android:text="不接收Ta的消息"
+                                android:textColor="#333333"
+                                android:textSize="@dimen/sp_17" />
+
+                            <com.yuanding.schoolpass.view.toggle.ToggleButton
+                                android:id="@+id/tb_get_send_message"
+                                android:layout_width="46dp"
+                                android:layout_height="24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/space_13"
+                android:paddingRight="@dimen/space_13"
+                android:paddingTop="@dimen/space_18" >
+
+                <Button
+                    android:id="@+id/btn_persion_send_zhitiao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_button_bg"
+                    android:text="发信息"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_persion_info_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/person_info_call_bg" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/view_ifno_view_temp002"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/view_ifno_view_loading"
+        layout="@layout/pub_read_loading" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- 校外 -->
+
+    <LinearLayout
+        android:id="@+id/liner_class_contact3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <!-- 搜索栏 -->
+
+        <RelativeLayout
+            android:id="@+id/rel_out_school_search"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="visible" >
+
+            <com.yuanding.schoolpass.view.contact.CustomEditText
+                android:id="@+id/CustomEditText_OutSchool_Search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_contact_search"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/ic_edit_text_delbtn"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:gravity="center_vertical"
+                android:hint="查找"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="1dp"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#999999"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="20dp"
+            android:text="分类"
+            android:visibility="gone"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <com.yuanding.schoolpass.view.MyGridView
+            android:id="@+id/gv_outschool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-2dp"
+            android:background="@color/white"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+</LinearLayout>

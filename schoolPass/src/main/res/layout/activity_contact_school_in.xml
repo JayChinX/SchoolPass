@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- 校内 -->
+
+    <LinearLayout
+        android:id="@+id/liner_class_contact2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/demo_swiperefreshlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/lv_inschcool"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:listSelector="@color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+            </com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView>
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/contact_acy_load_error_in"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 没有数据 -->
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/contact_school_acy_loading"
+        layout="@layout/pub_read_loading" />
+
+    <include
+        android:id="@+id/contact_acy_no_content_in"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

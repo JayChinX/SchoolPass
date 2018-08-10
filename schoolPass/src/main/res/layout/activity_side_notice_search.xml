@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 搜索栏 -->
+
+    <RelativeLayout
+        android:id="@+id/rel_contace_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_56"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="visible" >
+
+        <com.yuanding.schoolpass.view.contact.CustomEditText
+            android:id="@+id/school_friend_member_search_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_contact_search"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_edit_text_delbtn"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="center_vertical"
+            android:hint="这里可搜索联系人以及通知"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="1dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:layout_marginTop="@dimen/space_56"
+        android:background="#11000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_57"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/liner_lecture_list_whole_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+                android:id="@+id/demo_swiperefreshlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical" >
+
+                <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                    android:id="@+id/lv_side_lecture_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:cacheColorHint="@color/col_account_bg"
+                    android:divider="@color/col_account_bg"
+                    android:dividerHeight="0px"
+                    android:fadingEdge="none"
+                    android:footerDividersEnabled="false"
+                    android:headerDividersEnabled="false"
+                    android:overScrollMode="never"
+                    android:paddingBottom="2dp"
+                    android:scrollbars="vertical"
+                    android:scrollingCache="false" />
+            </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+        </LinearLayout>
+
+        <!-- 加载失败 -->
+
+        <include
+            android:id="@+id/side_lecture_load_error"
+            layout="@layout/pub_read_faile"
+            android:visibility="gone" />
+        <!-- 加载中 -->
+
+        <include
+            android:id="@+id/side_lecture__loading"
+            layout="@layout/pub_read_loading" />
+        <!-- 没有数据 -->
+
+        <include
+            android:id="@+id/side_lecture_no_content"
+            layout="@layout/pub_read_no_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/home_gray">
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	   >
+	    
+	   <ImageView 
+	       android:layout_above="@+id/tv_load_error_temp"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_centerHorizontal="true"
+	       android:layout_marginBottom="@dimen/space_10"
+	       android:background="@drawable/pub_load_fail_icon"/>
+	   <TextView 
+	       android:id="@+id/tv_load_error_temp"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_centerInParent="true"
+	       android:text="@string/forget_pwd_max_count"
+	       android:textColor="#999999"
+	       android:textSize="@dimen/sp_17"
+	       />
+	</RelativeLayout>
+</LinearLayout>

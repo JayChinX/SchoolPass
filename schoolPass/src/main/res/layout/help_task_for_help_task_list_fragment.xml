@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg" >
+
+    <!-- 下拉刷新  下拉加载 -->
+
+    <LinearLayout
+        android:id="@+id/for_help_list_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/for_help_swiperefreshlayout_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/for_help_ptr_list_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@color/col_account_bg"
+                android:divider="@color/col_account_bg"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:overScrollMode="never"
+                android:paddingBottom="2dp"
+                android:scrollbars="vertical"
+                android:scrollingCache="false" />
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+
+    <!-- 提示 -->
+
+<LinearLayout 
+    android:id="@+id/for_help_tishi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/col_account_bg"
+    android:visibility="gone">
+     <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bangbang_ico_no_bangbang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_help_hint"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+</LinearLayout>
+   
+
+    <include
+        android:id="@+id/for_help_loading"
+        layout="@layout/pub_read_loading" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MySlider"> 
+        <attr name = "SlidingDrawer_orientation"  format="integer"/>
+        <attr name = "SlidingDrawer_bottomOffset" format = "dimension"/>
+        <attr name = "SlidingDrawer_topOffset" format = "dimension"/>
+        <attr name = "SlidingDrawer_allowSingleTap" format = "boolean"/>
+        <attr name = "SlidingDrawer_animateOnClick" format = "boolean"/>
+        <attr name = "SlidingDrawer_handle" format = "reference"/>
+        <attr name = "SlidingDrawer_content" format = "reference"/>
+    </declare-styleable>
+</resources>

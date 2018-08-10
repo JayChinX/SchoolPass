@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/side_acy_list_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout 
+        android:id="@+id/for_help_get_task_fa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+        <ImageView
+        android:id="@+id/for_help_get_task_ts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bangbang_ico_chenggong" />
+    <TextView 
+        android:id="@+id/for_help_get_task_title"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/start_title_col"
+        android:textSize="@dimen/sp_18" 
+        android:visibility="gone" />
+    </FrameLayout>
+    
+
+    <TextView
+        android:id="@+id/for_help_get_task_wz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/for_help_get_task_fa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="15dp"
+        android:text="任务领取成功！注意按时完成任务才会获得酬金。"
+        android:textColor="@color/start_title_col"
+        android:textSize="@dimen/sp_16" />
+    <View 
+        android:id="@+id/for_help_get_task_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+         android:layout_below="@+id/for_help_get_task_wz"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:visibility="gone"
+        android:background="@color/info_green_name"/>
+
+    <TextView
+        android:id="@+id/for_help_get_task_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/for_help_get_task_wz"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:padding="19dp"
+        android:text="好的"
+        android:textColor="@color/info_green_name"
+        android:background="@drawable/general_dialog_right_btn_bg" />
+
+    <LinearLayout
+        android:id="@+id/for_help_pay_resurt_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/for_help_get_task_wz"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/for_help_task_pay_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="19dp"
+            android:text="取消"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            android:background="@drawable/general_dialog_right_btn_bg" />
+
+        <TextView
+            android:id="@+id/for_help_task_pay_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="19dp"
+            android:text="重新支付"
+            android:textColor="@color/info_green_name"
+            android:textSize="13sp" 
+            android:background="@drawable/general_dialog_right_btn_bg"/>
+    </LinearLayout>
+
+</RelativeLayout>

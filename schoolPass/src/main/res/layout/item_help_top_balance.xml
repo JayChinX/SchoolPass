@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/col_account_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/space_20"
+        android:paddingRight="@dimen/space_20"
+        android:paddingTop="@dimen/space_22" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥ "
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="55.00"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_21" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/for_help_get_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_22"
+            android:background="@drawable/btn_huizhi_queren"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="申请提现"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_25"
+            android:layout_marginTop="@dimen/space_10"
+            android:gravity="center_horizontal"
+            android:text="(每周？可提现)"
+            android:textColor="@color/title_no_focus_login"
+            android:textSize="@dimen/sp_11" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_32"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/space_20"
+        android:text="明细"
+        android:textColor="@color/black_code"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+  <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none"
+      >
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingLeft="@dimen/space_20"
+      android:paddingRight="@dimen/space_20"
+      android:gravity="center_horizontal"
+      >
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center_vertical"
+         android:layout_marginTop="@dimen/space_23"
+         >
+         <View
+            android:layout_width="0dp"
+            android:layout_height="0.4dp"
+            android:layout_weight="1"
+            android:background="@color/title_line" />
+         <TextView 
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:textSize="@dimen/sp_13"
+             android:textColor="#999999"
+             android:gravity="center"
+             android:text="客服热线"
+             />
+           <View
+            android:layout_width="0dp"
+            android:layout_height="0.4dp"
+            android:layout_weight="1"
+            android:background="@color/title_line" />
+     </LinearLayout>
+     <LinearLayout 
+         android:id="@+id/liner_contact_us"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_marginTop="@dimen/space_19"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="联系电话: "
+             android:textSize="@dimen/sp_17"
+             android:textColor="#333333"
+             
+             />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/str_about_app_phone_number"
+             android:textSize="@dimen/sp_17"
+             android:textColor="@color/GREENlIGHT"
+             />
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_marginTop="@dimen/space_19"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="值班时间: "
+             android:textSize="@dimen/sp_17"
+             android:textColor="#333333"
+             
+             />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/str_about_work_time"
+             android:textSize="@dimen/sp_17"
+             android:textColor="#333333"
+             
+             />
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center_vertical"
+         android:layout_marginTop="@dimen/space_33"
+         android:layout_marginBottom="@dimen/space_23"
+         >
+         <View
+            android:layout_width="0dp"
+            android:layout_height="0.4dp"
+            android:layout_weight="1"
+            android:background="@color/title_line" />
+         <TextView 
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:textSize="@dimen/sp_13"
+             android:textColor="#999999"
+             android:gravity="center"
+             android:text="官方微信"
+             />
+           <View
+            android:layout_width="0dp"
+            android:layout_height="0.4dp"
+            android:layout_weight="1"
+            android:background="@color/title_line" />
+     </LinearLayout>
+     <ImageView 
+         android:id="@+id/iv_dimensional_bar_code"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/icon_about_app"
+         />
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_marginTop="@dimen/space_14"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="微信号："
+             android:textSize="@dimen/sp_17"
+             android:textColor="#333333"
+             
+             />
+         <TextView
+             android:id="@+id/tv_temp_weinxin_number"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:textSize="@dimen/sp_17"
+             android:textColor="#333333"
+             
+             />
+     </LinearLayout>
+   </LinearLayout>
+   </ScrollView>
+</LinearLayout>

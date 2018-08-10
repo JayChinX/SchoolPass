@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="0.4dp"
+         android:background="#cccccc" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_tool_bg"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/toolbar_seracher"
+            style="@style/background_change"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0.5dp"
+            android:paddingTop="0.5dp" >
+            <RelativeLayout
+                android:id="@+id/rel_inex_mess_no_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_alignParentTop="true"
+	            android:layout_centerHorizontal="true">
+                <ImageView
+	                android:id="@+id/toolb_home"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/ic_main_my_mess_nor" />
+                <TextView
+                    android:id="@+id/tv_index_mess_no_read_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_message_noread"
+                    android:layout_alignParentRight="true"
+                   
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/toolb_search_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rel_inex_mess_no_read"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0.5dp"
+                android:text="@string/str_my_mess_title"
+                android:textColor="@color/main_tool_text_nor"
+                android:visibility="gone"
+                android:textSize="@dimen/sp_12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toolbar_promate"
+            style="@style/background_change"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0.5dp"
+            android:paddingTop="0.5dp" >
+
+            <ImageView
+                android:id="@+id/toolb_promate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_main_my_sch_nor" />
+
+            <TextView
+                android:id="@+id/toolb_promate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolb_promate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0.5dp"
+                android:text="@string/str_my_school_pass_title"
+                android:textColor="@color/main_tool_text_nor"
+                android:visibility="gone"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toolbar_account"
+            style="@style/background_change"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0.5dp"
+            android:paddingTop="0.5dp" >
+            <RelativeLayout
+                android:id="@+id/rel_side_no_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_alignParentTop="true"
+	            android:layout_centerHorizontal="true">
+                <ImageView
+	                android:id="@+id/toolb_account"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentTop="true"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/ic_main_my_side_nor" />
+                <ImageView
+                    android:id="@+id/iv_side_no_read_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/icon_message_noread"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/toolb_account_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rel_side_no_read"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0.5dp"
+                android:text="@string/str_my_side_title"
+                android:textColor="@color/main_tool_text_nor"
+                android:visibility="gone"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toolbar_more"
+            style="@style/background_change"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0.5dp"
+            android:paddingTop="0.5dp" >
+
+            <ImageView
+                android:id="@+id/toolb_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_main_my_acc_nor" />
+
+            <TextView
+                android:id="@+id/toolb_more_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolb_more"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0.5dp"
+                android:text="@string/str_my_account_title"
+                android:visibility="gone"
+                android:textColor="@color/main_tool_text_nor"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

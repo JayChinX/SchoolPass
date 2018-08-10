@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="18dp" >
+
+            <ImageView
+                android:id="@+id/for_help_pay_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bangbang_ico_guanbi" />
+
+            <TextView
+                android:id="@+id/for_help_task_pay_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="付款详情"
+                android:textColor="@color/start_title_col"
+                android:textSize="@dimen/sp_20" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="@color/title_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/for_help_pay_num_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="￥2.00"
+                android:textColor="@color/attence_later"
+                android:textSize="@dimen/sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="服务方完成任务后才会获取酬金。若您的任务无人领取，酬金将原路退回。"
+                android:textColor="@color/tab_indicator_text_unselected"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="@color/title_line" />
+
+        <RelativeLayout
+            android:id="@+id/for_help_start_zfb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp" >
+
+            <ImageView
+                android:id="@+id/for_help_pay_zfb_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:src="@drawable/bangbang_ico_zhifubao" />
+
+            <TextView
+                android:id="@+id/for_help_pay_zfb_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/for_help_pay_zfb_image"
+                android:text="支付宝支付"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/for_help_pay_zfb_text"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/for_help_pay_zfb_image"
+                android:text="推荐有支付宝账号的用户使用"
+                android:textColor="@color/title_no_focus_login"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:id="@+id/for_help_zfb_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/i_set_radio"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="@color/title_line" />
+
+        <RelativeLayout
+            android:id="@+id/for_help_start_wexin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp" >
+
+            <ImageView
+                android:id="@+id/for_help_pay_weixin_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:src="@drawable/bangbang_ico_weixinzhifu" />
+
+            <TextView
+                android:id="@+id/for_help_pay_weixin_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/for_help_pay_weixin_image"
+                android:text="微信支付"
+                android:textColor="@color/black_code"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/for_help_pay_weixin_text"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/for_help_pay_weixin_image"
+                android:text="推荐安装微信5.0及以上版本使用"
+                android:textColor="@color/title_no_focus_login"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:id="@+id/for_help_weixin_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/i_set_radio"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/for_help_pay_start_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/for_help_pay_start"
+        android:gravity="center"
+        android:padding="19dp"
+        android:text="确认支付"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18" />
+
+</LinearLayout>

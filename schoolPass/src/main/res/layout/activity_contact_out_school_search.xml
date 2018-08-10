@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_whole_view_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/demo_swiperefreshlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/lv_out_school_list_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:listSelector="@color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="vertical" />
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/lv_out_school_load_error_click"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/lv_stu_contact_loading"
+        layout="@layout/pub_read_loading" />
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/lv_out_school_no_content_click"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+
+</LinearLayout>

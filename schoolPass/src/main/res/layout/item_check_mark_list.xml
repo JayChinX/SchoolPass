@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+   
+    >
+
+    <Button
+               android:id="@+id/check_btn_leave"
+               android:textColor="@color/black_dan"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/attence_check_cancel"
+               android:padding="10dp"
+               android:text="请假" />
+
+</LinearLayout>

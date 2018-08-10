@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/col_account_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" 
+        android:id="@+id/lienr_ifno_view_temp002"
+        android:visibility="gone"
+        >
+
+        <com.yuanding.schoolteacher.view.CircleImageView
+            android:id="@+id/iv_attendence_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv_attendence_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="海里"
+            android:textColor="@color/black_code"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/tv_attendence_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="汉语201班"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/liner_attence_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            
+             >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出勤率"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_attendence_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="69%"
+                android:textColor="#666666"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_attence_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_13"
+        android:paddingRight="@dimen/space_13"
+        android:paddingTop="@dimen/space_45" 
+        android:paddingBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/btn_persion_send_zhitiao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/login_button_bg"
+            android:text="发信息"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_persion_info_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_10"
+            android:background="@drawable/person_info_call_bg" />
+    </LinearLayout>
+ <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/view_ifno_view_temp002"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/view_ifno_view_loading"
+        layout="@layout/pub_read_loading" 
+        />
+    
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+           多于一个选项卡的情况、下面为文字、右面为未读标示
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="-3dip"
+    android:layout_marginRight="-3dip"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tab_title"
+        style="@style/MyWidget.TabText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp" />
+
+    <ImageView
+        android:id="@+id/tab_title_tips"
+        android:layout_width="@dimen/space_15"
+        android:layout_height="@dimen/space_15"
+        android:layout_toRightOf="@+id/tab_title"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_5"
+        android:background="@drawable/icon_message_noread"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:visibility="gone" />
+</RelativeLayout>

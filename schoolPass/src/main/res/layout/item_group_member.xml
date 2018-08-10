@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.yuanding.schoolpass.view.CircleImageView
+        android:id="@+id/iv_group_member_por"
+        android:layout_width="@dimen/space_60"
+        android:layout_height="@dimen/space_60"
+        android:background="@drawable/photo_five"
+        />
+
+    <TextView
+        android:id="@+id/tv_group_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#333333"
+        android:textSize="@dimen/sp_13" />
+
+</LinearLayout>

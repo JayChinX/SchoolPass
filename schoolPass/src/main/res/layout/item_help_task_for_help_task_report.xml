@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white"
+     android:padding="6dp">
+    
+    <TextView 
+        android:id="@+id/for_help_task_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="聚众斗殴"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/start_title_col"
+        android:gravity="center"
+        android:background="@drawable/bangbang_btn_jubao"
+       />
+
+</LinearLayout>

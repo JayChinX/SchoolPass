@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_account_bg" 
+    >
+
+    <!-- 抽屉菜单 -->
+
+
+    <!-- 动态 -->
+
+    <RelativeLayout
+        android:id="@+id/for_help_t"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/ts_side_info_top_animal01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bangbang_ico_dt" />
+
+            <View
+                android:layout_width="0.4dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/title_line" />
+        </LinearLayout>
+
+        <TextSwitcher
+            android:id="@+id/ts_side_info_top_animal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_toRightOf="@+id/ts_side_info_top_animal01"
+            android:gravity="center_vertical"
+            android:inAnimation="@anim/animal_push_up_in_normal"
+            android:outAnimation="@anim/animal_push_up_out_normal"
+            android:visibility="visible" >
+        </TextSwitcher>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/title_line" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/for_help_task_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/for_help_t"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/for_help_task_list_fragment"
+            android:name="com.yuanding.schoolpass.bangbang.B_Side_Befriend_A0_List_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.yuanding.schoolpass.view.WrapSlidingDrawer
+        android:id="@+id/for_help_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:animateOnClick="true"
+        android:content="@+id/for_help_type"
+        android:handle="@+id/for_help_open_or_close"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/for_help_open_or_close"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white" >
+
+            <RelativeLayout
+                android:id="@+id/for_help_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <ImageView
+                    android:id="@+id/for_help_jiantou_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:src="@drawable/bangbang_ico_jts" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="15dp"
+                    android:text="@string/str_help_please"
+                    android:textColor="@color/info_green_name"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/for_help_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/for_help_jiantou_buttom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:src="@drawable/bangbang_ico_jtx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="15dp"
+                    android:text="@string/str_help_please"
+                    android:textColor="@color/black_code"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/title_line" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/for_help_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:numColumns="3" >
+        </GridView>
+    </com.yuanding.schoolpass.view.WrapSlidingDrawer>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner_attdence_list_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout
+            android:id="@+id/demo_swiperefreshlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <com.yuanding.schoolpass.view.refreshtools.PullToRefreshListView
+                android:id="@+id/side_lv_attendence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@color/col_account_bg"
+                android:divider="#CCCCCC"
+                android:dividerHeight="0.0dp"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:overScrollMode="never"
+                android:paddingBottom="0dp"
+                android:scrollbars="none"
+                android:scrollingCache="false" />
+        </com.yuanding.schoolpass.view.refreshtools.SimpleSwipeRefreshLayout>
+    </LinearLayout>
+
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/side_attdence_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 加载中 -->
+
+    <include
+        android:id="@+id/side_attdence_loading"
+        layout="@layout/pub_read_loading" />
+
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/side_attdence_no_content"
+        layout="@layout/activity_side_pub_attdence"
+        android:visibility="gone" />
+
+</LinearLayout>

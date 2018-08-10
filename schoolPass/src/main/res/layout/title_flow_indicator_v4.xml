@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+          多余一个选项卡的情况、下面为左图片、右文字、未读数量在文字右上角、例如：邦豆选项卡页面
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="-3dip"
+    android:layout_marginRight="-3dip"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tab_title"
+        style="@style/MyWidget.TabText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:textColor="#FFCD37"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:id="@+id/tab_title_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/tab_title"
+     
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:visibility="gone" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/tab_title_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:visibility="gone" />
+</RelativeLayout>

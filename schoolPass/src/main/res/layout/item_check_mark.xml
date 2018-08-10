@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liner_check_mark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:background="@drawable/check_mack_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <com.yuanding.schoolpass.view.CircleImageView
+            android:id="@+id/iv_mark_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/tv_check_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="海里"
+            android:textColor="@color/start_title_col"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical" 
+            
+            >
+
+            <TextView
+                android:id="@+id/tv_check_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/title_no_focus_login" 
+               
+                />
+
+            <LinearLayout
+               android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="偏离:"
+                    android:textColor="@color/title_no_focus_login" />
+
+                <TextView
+                    android:id="@+id/tv_check_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无回应"
+                    android:textColor="@color/title_no_focus_login" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.yuanding.schoolpass.view.MyGridView
+            android:id="@+id/side_check_gridview_mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="2"
+            android:verticalSpacing="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

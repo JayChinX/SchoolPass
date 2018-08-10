@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/col_account_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/liner_side_whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:overScrollMode="always"
+        android:scrollbars="none"
+        android:visibility="visible"
+        android:background="@color/col_account_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:background="@color/white" >
+
+                <fragment
+                    android:id="@+id/fragment_cycle_viewpager_content"
+                    android:name="com.yuanding.schoolpass.view.banner.CycleViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/iv_banner_defaule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_default_banner_empty_bg" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <com.yuanding.schoolpass.view.MyGridView
+                    android:id="@+id/gridview_side"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:layout_marginBottom="@dimen/space_10"
+                    android:horizontalSpacing="@dimen/space_10"
+                    android:listSelector="@color/white"
+                    android:scrollbars="none"
+                    android:verticalSpacing="@dimen/space_10" >
+                </com.yuanding.schoolpass.view.MyGridView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela_side_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_15"
+                android:layout_marginBottom="@dimen/space_15"
+                android:background="@color/white"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_side_image"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_36"
+                    android:layout_marginLeft="@dimen/space_18"
+                    android:background="@drawable/iv_side_headlines" />
+
+                <View
+                    android:layout_width="@dimen/space_0.7"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:layout_toRightOf="@+id/iv_side_image"
+                    android:background="@color/gray1" />
+
+                <LinearLayout
+                     android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_toRightOf="@+id/iv_side_image"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/space_3"
+                     >
+
+                    <LinearLayout
+                        android:id="@+id/liner_side_info_top"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView 
+                            android:id="@+id/tv_side_info_top_no_animal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:lineSpacingExtra="@dimen/space_6"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/space_5"
+                            android:textSize="@dimen/sp_13"
+                            android:textColor="@color/title_notice_title"
+                            android:gravity="center_vertical"
+                            android:visibility="gone"/>
+                        <TextSwitcher
+                            android:id="@+id/ts_side_info_top_animal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/space_5"
+                            android:gravity="center_vertical"
+                            
+                            android:inAnimation="@anim/animal_push_up_in_normal"
+                            android:outAnimation="@anim/animal_push_up_out_normal"
+                            android:visibility="gone" >
+                        </TextSwitcher>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_toRightOf="@+id/iv_side_image"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/space_2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/space_11"
+                            android:layout_height="@dimen/space_11"
+                            android:src="@drawable/icon_message_noread"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space_5"
+                            android:singleLine="true"
+                            android:textColor="@color/title_notice_title" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/space_11"
+                            android:layout_height="@dimen/space_11"
+                            android:src="@drawable/icon_message_noread"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space_5"
+                            android:singleLine="true"
+                            android:textColor="@color/title_notice_title" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 加载失败 -->
+
+    <include
+        android:id="@+id/side_info_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <!-- 没有数据 -->
+
+    <include
+        android:id="@+id/side_info_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="gone" />
+
+</LinearLayout>

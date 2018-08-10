@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="top"
+        android:background="@color/main_color" >
+
+        <!-- 返回按钮 -->
+
+        <LinearLayout
+            android:id="@+id/liner_titlebar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/navigationbar_back_button" />
+        </LinearLayout>
+
+        <!-- 标题栏标题 -->
+        <LinearLayout
+            android:id="@+id/liner_select_week"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_15"
+	        android:paddingRight="@dimen/space_20"
+	        android:visibility="gone">
+	        <TextView
+	            android:id="@+id/tv_titlebar_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:textColor="@color/white"
+	            android:textSize="20sp" 
+	            android:gravity="center"/>
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/space_5"
+	            android:src="@drawable/course_dt" 
+	            android:focusable="false"/>
+	    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liner_change_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="17dp"
+	            android:background="@drawable/navigationbar_add_button" />
+	    </LinearLayout>
+	    
+        <!-- 偏右 -->
+        <LinearLayout
+            android:id="@+id/liner_change_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@+id/liner_change_add" 
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/iv_pian_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/navigationbar_more_share"/>
+        </LinearLayout>
+        
+        <!-- 提交或者是确认、全选 -->
+        <Button
+            android:id="@+id/btn_title_zuiyou_text_course"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_26"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/space_18"
+            android:background="@drawable/navigationbar_textbtn"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/main_color"
+            android:text="复制课表"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_side_course_whole"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/col_account_bg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rela_couse_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/course_main_bg" >
+
+            <TextView
+                android:id="@+id/test_empty"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <View 
+                android:id="@+id/liner_temp_000"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_empty"/>
+            
+            <TextView
+                android:id="@+id/test_monday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_000"/>
+			
+            <View 
+                android:id="@+id/liner_temp_001"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_monday_course"/>
+            
+            <TextView
+                android:id="@+id/test_tuesday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_001"/>
+
+            <View 
+                android:id="@+id/liner_temp_002"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_tuesday_course"/>
+                        
+            <TextView
+                android:id="@+id/test_wednesday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_002"/>
+
+             <View 
+                android:id="@+id/liner_temp_003"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_wednesday_course"/>
+                        
+            <TextView
+                android:id="@+id/test_thursday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_003"/>
+
+            <View 
+                android:id="@+id/liner_temp_004"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_thursday_course"/>
+                         
+            <TextView
+                android:id="@+id/test_friday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_004"/>
+            
+            <View 
+                android:id="@+id/liner_temp_005"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_friday_course"/>
+
+            <TextView
+                android:id="@+id/test_saturday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_005"/>
+			
+            <View 
+                android:id="@+id/liner_temp_006"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/course_main_bg"
+                android:layout_toRightOf="@id/test_saturday_course"/>
+                        
+            <TextView
+                android:id="@+id/test_sunday_course"
+                style="@style/courseTableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/liner_temp_006"/>
+
+            <ScrollView
+                android:id="@+id/scroll_body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/test_empty"
+                android:fadingEdge="none"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+
+                <RelativeLayout
+                    android:id="@+id/test_course_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/side_course_load_error"
+        layout="@layout/pub_read_faile"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/side_course_loading"
+        layout="@layout/pub_read_loading"
+        android:visibility="visible" />
+    
+    <!-- 没有数据 -->
+    <include
+        android:id="@+id/side_course_no_content"
+        layout="@layout/pub_read_no_content"
+        android:visibility="gone" />
+</LinearLayout>
